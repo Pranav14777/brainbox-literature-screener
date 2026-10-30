@@ -1,0 +1,501 @@
+{
+  "_about": "Scripted fake LLM outputs for mocked evaluation runs, exported from tests/test_rules.py and tests/test_drafting.py. Every quote is copied from synthetic_clinical_abstracts.json.",
+  "eligibility": {
+    "SYN001": {
+      "total_sample_size": {
+        "value": 240,
+        "quote": "enrolled 240 adults aged 40 to 75 years with type 2 diabetes"
+      },
+      "group_sizes": [
+        {
+          "value": 120,
+          "quote": "metformin (120 participants)"
+        },
+        {
+          "value": 120,
+          "quote": "placebo (120 participants)"
+        }
+      ],
+      "species": {
+        "value": "human",
+        "quote": "enrolled 240 adults"
+      },
+      "design": {
+        "value": "randomised",
+        "quote": "This synthetic randomized, placebo-controlled trial"
+      },
+      "population_match": {
+        "value": "yes",
+        "quote": "adults aged 40 to 75 years with type 2 diabetes"
+      },
+      "intervention_match": {
+        "value": "yes",
+        "quote": "randomized to metformin (120 participants) or placebo"
+      },
+      "outcome_match": {
+        "value": "yes",
+        "quote": "a composite of cardiovascular death, myocardial infarction and stroke"
+      }
+    },
+    "SYN002": {
+      "total_sample_size": {
+        "value": 320,
+        "quote": "320 adults with type 2 diabetes were randomized equally to metformin or placebo"
+      },
+      "group_sizes": [
+        {
+          "value": 160,
+          "quote": "24 of 160 participants assigned metformin"
+        },
+        {
+          "value": 160,
+          "quote": "16 of 160 assigned placebo"
+        }
+      ],
+      "species": {
+        "value": "human",
+        "quote": "320 adults with type 2 diabetes"
+      },
+      "design": {
+        "value": "randomised",
+        "quote": "synthetic randomized, placebo-controlled trial"
+      },
+      "population_match": {
+        "value": "yes",
+        "quote": "320 adults with type 2 diabetes"
+      },
+      "intervention_match": {
+        "value": "yes",
+        "quote": "randomized equally to metformin or placebo"
+      },
+      "outcome_match": {
+        "value": "yes",
+        "quote": "cardiovascular death, myocardial infarction or stroke"
+      }
+    },
+    "SYN003": {
+      "total_sample_size": null,
+      "group_sizes": [],
+      "species": {
+        "value": "human",
+        "quote": "in adults with type 2 diabetes"
+      },
+      "design": {
+        "value": "randomised",
+        "quote": "This synthetic double-blind randomized trial"
+      },
+      "population_match": {
+        "value": "yes",
+        "quote": "in adults with type 2 diabetes"
+      },
+      "intervention_match": {
+        "value": "yes",
+        "quote": "compared metformin with placebo"
+      },
+      "outcome_match": {
+        "value": "yes",
+        "quote": "The primary endpoint was myocardial infarction or stroke"
+      }
+    },
+    "SYN004": {
+      "total_sample_size": {
+        "value": 180,
+        "quote": "enrolled 180 adults with type 2 diabetes"
+      },
+      "group_sizes": [
+        {
+          "value": 90,
+          "quote": "Ninety participants were randomized to each arm"
+        },
+        {
+          "value": 90,
+          "quote": "Ninety participants were randomized to each arm"
+        }
+      ],
+      "species": {
+        "value": "human",
+        "quote": "180 adults with type 2 diabetes"
+      },
+      "design": {
+        "value": "randomised",
+        "quote": "This synthetic randomized trial"
+      },
+      "population_match": {
+        "value": "yes",
+        "quote": "180 adults with type 2 diabetes"
+      },
+      "intervention_match": {
+        "value": "yes",
+        "quote": "compared metformin with usual care"
+      },
+      "outcome_match": {
+        "value": "yes",
+        "quote": "The primary endpoint was myocardial infarction over 18 months"
+      }
+    },
+    "SYN005": {
+      "total_sample_size": {
+        "value": 80,
+        "quote": "randomly allocated 80 mice"
+      },
+      "group_sizes": [],
+      "species": {
+        "value": "animal",
+        "quote": "randomly allocated 80 mice"
+      },
+      "design": {
+        "value": "randomised",
+        "quote": "randomly allocated 80 mice with experimentally induced diabetes to metformin or vehicle"
+      },
+      "population_match": {
+        "value": "no",
+        "quote": "The study involved no human participants"
+      },
+      "intervention_match": {
+        "value": "yes",
+        "quote": "to metformin or vehicle"
+      },
+      "outcome_match": {
+        "value": "no",
+        "quote": "does not report human cardiovascular events"
+      }
+    },
+    "SYN006": {
+      "total_sample_size": {
+        "value": 50,
+        "quote": "enrolled exactly 50 adults with type 2 diabetes"
+      },
+      "group_sizes": [
+        {
+          "value": 25,
+          "quote": "25 were randomized to metformin"
+        },
+        {
+          "value": 25,
+          "quote": "25 to placebo"
+        }
+      ],
+      "species": {
+        "value": "human",
+        "quote": "50 adults with type 2 diabetes"
+      },
+      "design": {
+        "value": "randomised",
+        "quote": "This synthetic randomized controlled trial"
+      },
+      "population_match": {
+        "value": "yes",
+        "quote": "50 adults with type 2 diabetes"
+      },
+      "intervention_match": {
+        "value": "yes",
+        "quote": "25 were randomized to metformin"
+      },
+      "outcome_match": {
+        "value": "yes",
+        "quote": "The primary endpoint was stroke during 18 months"
+      }
+    },
+    "SYN007": {
+      "total_sample_size": {
+        "value": 600,
+        "quote": "included 600 adults with type 2 diabetes"
+      },
+      "group_sizes": [],
+      "species": {
+        "value": "human",
+        "quote": "600 adults with type 2 diabetes"
+      },
+      "design": {
+        "value": "non_randomised",
+        "quote": "participants were not randomized"
+      },
+      "population_match": {
+        "value": "yes",
+        "quote": "600 adults with type 2 diabetes"
+      },
+      "intervention_match": {
+        "value": "yes",
+        "quote": "compared metformin users with patients receiving usual care without metformin"
+      },
+      "outcome_match": {
+        "value": "yes",
+        "quote": "The endpoint was myocardial infarction or stroke"
+      }
+    },
+    "SYN008": {
+      "total_sample_size": {
+        "value": 160,
+        "quote": "enrolled 160 adults with type 2 diabetes"
+      },
+      "group_sizes": [
+        {
+          "value": 80,
+          "quote": "with 80 randomized to each arm"
+        },
+        {
+          "value": 80,
+          "quote": "with 80 randomized to each arm"
+        }
+      ],
+      "species": {
+        "value": "human",
+        "quote": "160 adults with type 2 diabetes"
+      },
+      "design": {
+        "value": "randomised",
+        "quote": "This synthetic randomized placebo-controlled trial"
+      },
+      "population_match": {
+        "value": "yes",
+        "quote": "160 adults with type 2 diabetes"
+      },
+      "intervention_match": {
+        "value": "yes",
+        "quote": "Six events occurred with metformin and seven with placebo"
+      },
+      "outcome_match": {
+        "value": "yes",
+        "quote": "The primary endpoint was myocardial infarction or stroke at 12 months"
+      }
+    }
+  },
+  "summary_q2": {
+    "study_details": [
+      {
+        "record_id": "SYN001",
+        "details": [
+          {
+            "name": "population",
+            "value": "adults aged 40 to 75 years with type 2 diabetes",
+            "quote": "adults aged 40 to 75 years with type 2 diabetes"
+          },
+          {
+            "name": "intervention",
+            "value": "metformin",
+            "quote": "Participants were randomized to metformin"
+          },
+          {
+            "name": "comparator",
+            "value": "placebo",
+            "quote": "or placebo (120 participants)"
+          },
+          {
+            "name": "participants",
+            "value": "240 adults",
+            "quote": "enrolled 240 adults"
+          },
+          {
+            "name": "primary_outcome",
+            "value": "cardiovascular death, myocardial infarction and stroke",
+            "quote": "a composite of cardiovascular death, myocardial infarction and stroke"
+          },
+          {
+            "name": "follow_up",
+            "value": "18 months",
+            "quote": "and stroke at 18 months"
+          },
+          {
+            "name": "intervention_events",
+            "value": "12 participants",
+            "quote": "occurred in 12 participants receiving metformin"
+          },
+          {
+            "name": "comparator_events",
+            "value": "20 participants",
+            "quote": "and 20 receiving placebo"
+          },
+          {
+            "name": "effect_estimate",
+            "value": "not reported",
+            "quote": null
+          }
+        ]
+      },
+      {
+        "record_id": "SYN002",
+        "details": [
+          {
+            "name": "population",
+            "value": "adults with type 2 diabetes",
+            "quote": "320 adults with type 2 diabetes"
+          },
+          {
+            "name": "intervention",
+            "value": "metformin",
+            "quote": "randomized equally to metformin or placebo"
+          },
+          {
+            "name": "comparator",
+            "value": "placebo",
+            "quote": "randomized equally to metformin or placebo"
+          },
+          {
+            "name": "participants",
+            "value": "320 adults",
+            "quote": "320 adults with type 2 diabetes"
+          },
+          {
+            "name": "primary_outcome",
+            "value": "cardiovascular death, myocardial infarction or stroke",
+            "quote": "cardiovascular death, myocardial infarction or stroke during 18 months"
+          },
+          {
+            "name": "follow_up",
+            "value": "18 months",
+            "quote": "during 18 months"
+          },
+          {
+            "name": "intervention_events",
+            "value": "24 of 160",
+            "quote": "Events occurred in 24 of 160 participants assigned metformin"
+          },
+          {
+            "name": "comparator_events",
+            "value": "16 of 160",
+            "quote": "16 of 160 assigned placebo"
+          },
+          {
+            "name": "effect_estimate",
+            "value": "not reported",
+            "quote": null
+          }
+        ]
+      },
+      {
+        "record_id": "SYN008",
+        "details": [
+          {
+            "name": "population",
+            "value": "adults with type 2 diabetes",
+            "quote": "160 adults with type 2 diabetes"
+          },
+          {
+            "name": "intervention",
+            "value": "metformin",
+            "quote": "Six events occurred with metformin"
+          },
+          {
+            "name": "comparator",
+            "value": "placebo",
+            "quote": "randomized placebo-controlled trial"
+          },
+          {
+            "name": "participants",
+            "value": "160 adults (80 per arm)",
+            "quote": "enrolled 160 adults with type 2 diabetes, with 80 randomized to each arm"
+          },
+          {
+            "name": "primary_outcome",
+            "value": "myocardial infarction or stroke",
+            "quote": "The primary endpoint was myocardial infarction or stroke"
+          },
+          {
+            "name": "follow_up",
+            "value": "12 months",
+            "quote": "myocardial infarction or stroke at 12 months"
+          },
+          {
+            "name": "intervention_events",
+            "value": "6",
+            "quote": "Six events occurred with metformin"
+          },
+          {
+            "name": "comparator_events",
+            "value": "7",
+            "quote": "seven with placebo"
+          },
+          {
+            "name": "effect_estimate",
+            "value": "not reported",
+            "quote": null
+          }
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "c1",
+        "kind": "study",
+        "text": "In a placebo-controlled trial, 12 people on metformin and 20 on placebo had a cardiovascular death, heart attack or stroke within 18 months.",
+        "record_ids": [
+          "SYN001"
+        ],
+        "quotes": [
+          {
+            "record_id": "SYN001",
+            "quote": "The composite outcome occurred in 12 participants receiving metformin and 20 receiving placebo"
+          },
+          {
+            "record_id": "SYN001",
+            "quote": "at 18 months"
+          }
+        ]
+      },
+      {
+        "claim_id": "c2",
+        "kind": "study",
+        "text": "In another trial, 24 of 160 people on metformin and 16 of 160 on placebo had an event over 18 months.",
+        "record_ids": [
+          "SYN002"
+        ],
+        "quotes": [
+          {
+            "record_id": "SYN002",
+            "quote": "Events occurred in 24 of 160 participants assigned metformin and 16 of 160 assigned placebo"
+          },
+          {
+            "record_id": "SYN002",
+            "quote": "during 18 months"
+          }
+        ]
+      },
+      {
+        "claim_id": "c3",
+        "kind": "study",
+        "text": "A further trial reported 6 events with metformin and 7 with placebo among 80 people per group at 12 months.",
+        "record_ids": [
+          "SYN008"
+        ],
+        "quotes": [
+          {
+            "record_id": "SYN008",
+            "quote": "Six events occurred with metformin and seven with placebo"
+          },
+          {
+            "record_id": "SYN008",
+            "quote": "with 80 randomized to each arm"
+          },
+          {
+            "record_id": "SYN008",
+            "quote": "at 12 months"
+          }
+        ]
+      },
+      {
+        "claim_id": "c4",
+        "kind": "comparison",
+        "text": "These trials point in different directions: fewer events with metformin in the first, more in the second and similar numbers in the third, and none reports confidence intervals or p values.",
+        "record_ids": [
+          "SYN001",
+          "SYN002",
+          "SYN008"
+        ],
+        "quotes": [
+          {
+            "record_id": "SYN001",
+            "quote": "No confidence interval or p value is reported in this abstract"
+          },
+          {
+            "record_id": "SYN002",
+            "quote": "The abstract provides no confidence interval or p value"
+          },
+          {
+            "record_id": "SYN008",
+            "quote": "No confidence interval or p value is reported"
+          }
+        ]
+      }
+    ]
+  }
+}

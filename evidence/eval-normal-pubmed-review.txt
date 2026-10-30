@@ -1,0 +1,84 @@
+========================================================================
+HUMAN REVIEW (round 1; change requests left: 2)
+EMAIL TO BE SENT
+========================================================================
+To:      gadampranav@gmail.com
+Subject: Literature screen: Which recent PubMed trials investigate metformin and cardiovascular outcomes... (2026-10-30) [run 20261030-053718-aecf]
+------------------------------------------------------------------------
+QUESTION
+Which recent PubMed trials investigate metformin and cardiovascular outcomes in adults with type 2 diabetes?
+
+INTERPRETATION
+intervention: metformin ('metformin')
+outcome: cardiovascular ('cardiovascular outcomes')
+population: adults_t2d ('adults with type 2 diabetes')
+sources: pubmed
+recent only: yes
+
+SUMMARY
+PUBMED (live search)
+- During a mean 5.0 years of follow-up in 5047 participants, the hazard ratios for any cardiovascular disease were 1.1 (95% confidence interval [CI], 0.9 to 1.3) in the glargine group, 1.1 (95% CI, 0.9 to 1.4) in the glimepiride group, 0.7 (95% CI, 0.6 to 0.9) in the liraglutide group, and 1.2 (95% CI, 1.0 to 1.5) in the sitagliptin group when compared with the combined results of the other three treatments. [PMID 36129997]
+- For up to 24 years after trial end, early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk reductions of 20% (95% CI 5-32; p=0·010) for death from any cause and 31% (12-46; p=0·003) for myocardial infarction, with corresponding absolute risk reductions of 4·9% and 6·2%, respectively. [PMID 38772405]
+
+LIMITATIONS
+- The summary does not compare the direction of findings across the included PubMed studies.
+
+EVIDENCE TABLE: PUBMED (live search)
+Search date: 2026/10/30
+Date window: 2021/10/30 to 2026/10/30 (recent = published in the 5 years before the search date)
+Screened 10 of 60 total matches (top results by relevance).
+
+Included (3)
+[PMID 36129997] Glycemia Reduction in Type 2 Diabetes - Microvascular and Cardiovascular Outcomes. (2022)
+  https://pubmed.ncbi.nlm.nih.gov/36129997/
+  population: persons with type 2 diabetes ["persons with type 2 diabetes."]
+  intervention: insulin glargine U-100, glimepiride, liraglutide, and sitagliptin ["The randomly assigned therapies were insulin glargine U-100 (hereafter, glargine), glimepiride, liraglutide, and sitagliptin."]
+  comparator: other treatments ["When one treatment was compared with the combined results of the other three treatments"]
+  participants: 5047 participants ["During a mean 5.0 years of follow-up in 5047 participants"]
+  primary outcome: glycated hemoglobin level of less than 7.0% ["achieving and maintaining a glycated hemoglobin level of less than 7.0% in participants with type 2 diabetes."]
+  follow up: 5.0 years ["During a mean 5.0 years of follow-up"]
+  intervention events: not reported
+  comparator events: not reported
+  effect estimate: 1.1 (95% confidence interval [CI], 0.9 to 1.3) ["the hazard ratios for any cardiovascular disease were 1.1 (95% confidence interval [CI], 0.9 to 1.3) in the glargine group"]
+[PMID 38772405] Post-trial monitoring of a randomised controlled trial of intensive glycaemic control in type 2 diabetes extended from 10 years to 24 years (UKPDS 91). (2024)
+  https://pubmed.ncbi.nlm.nih.gov/38772405/
+  population: people with newly diagnosed type 2 diabetes ["people with newly diagnosed type 2 diabetes"]
+  intervention: metformin therapy ["metformin therapy"]
+  comparator: conventional glycaemic control ["compared with conventional glycaemic control"]
+  participants: 4209 participants ["of whom 4209 (82·5%) participants were originally randomly allocated"]
+  primary outcome: seven prespecified aggregate clinical outcomes ["We examined seven prespecified aggregate clinical outcomes (ie, any diabetes-related endpoint, diabetes-related death, death from any cau..."]
+  follow up: up to 24 years ["For up to 24 years after trial end"]
+  intervention events: not reported
+  comparator events: not reported
+  effect estimate: 20% (95% CI 5-32; p=0·010) ["overall relative risk reductions of 20% (95% CI 5-32; p=0·010) for death from any cause"]
+[PMID 41311237] SGLT2 inhibitor or metformin as standard treatment in early-stage type 2 diabetes? Baseline data in SMARTEST, a novel, decentralised, register-based randomised trial on prevention of diabetic complications. (2026)
+  https://pubmed.ncbi.nlm.nih.gov/41311237/
+  population: Participants with T2D ["Participants with T2D since <4 years and without major cardiovascular or renal disease were included"]
+  intervention: metformin ["dapagliflozin 10 mg/day or metformin at an individualised dose"]
+  comparator: dapagliflozin ["compares metformin and the SGLT2 inhibitor dapagliflozin"]
+  participants: 2072 patients ["A total of 2072 patients, mean age 61.2 years, 39% women, entered randomised treatment."]
+  primary outcome: composite primary endpoint ["The composite primary endpoint is time to first event of: myocardial infarction, stroke, heart failure (MACE), appearance or progression..."]
+  follow up: 19.0 months ["at a mean follow-up time of 19.0 months"]
+  intervention events: not reported
+  comparator events: not reported
+  effect estimate: 11.7/100 patient-years ["the preliminary event rate of the primary composite endpoint was 11.7/100 patient-years (py) in the whole study population"]
+
+Needs review (0)
+
+Excluded (7)
+- [PMID 39521399] Stopping Versus Continuing Metformin in Patients With Advanced CKD: A Nationwide Scottish Target Trial Emulation Study. (2025): non-randomised study | design: non_randomised (metadata) https://pubmed.ncbi.nlm.nih.gov/39521399/
+- [PMID 38763510] Efficacy and Safety of Metformin and Atorvastatin Combination Therapy vs. Monotherapy with Either Drug in Type 2 Diabetes Mellitus and Dyslipidemia Patients (ATOMIC): Double-Blinded Randomized Controlled Trial. (2024): out of scope: outcome does not match | "The primary efficacy endpoints were the percent changes in HbA1c and LDL-C levels from baseline at the end..." https://pubmed.ncbi.nlm.nih.gov/38763510/
+- [PMID 40493151] Real-World Harm Reduction of Metformin Plus DPP4 Inhibitors versus Metformin Plus Sulfonylureas in Older Adults: A Target Trial Emulation Using German Claims Data. (2025): non-randomised study; out of scope: intervention does not match; out of scope: outcome does not match | "Using target trial emulation, we analyzed a retrospective cohort drawn from German routine claims data." https://pubmed.ncbi.nlm.nih.gov/40493151/
+- [PMID 38734755] Dapagliflozin added to metformin reduces perirenal fat layer in type 2 diabetic patients with obesity. (2024): 50 or fewer participants; out of scope: outcome does not match | "we enrolled 29 patients with type 2 Diabetes (HbA1c 6.5-9%) and Obesity (IMC > 30 kg/m2) in an open-label,..." https://pubmed.ncbi.nlm.nih.gov/38734755/
+- [PMID 41160096] Metformin Blunts Vascular Insulin Sensitivity After Exercise Training in Adults at Risk for Metabolic Syndrome. (2026): out of scope: population does not match; out of scope: outcome does not match | "adults at risk for metabolic syndrome" https://pubmed.ncbi.nlm.nih.gov/41160096/
+- [PMID 41362917] Metformin alleviates diastolic dysfunction in mice with experimental diabetic cardiomyopathy. (2025): animal study; out of scope: population does not match; out of scope: outcome does not match | "and hypothesized that treatment with metformin would alleviate diastolic dysfunction in mice with T2D." https://pubmed.ncbi.nlm.nih.gov/41362917/
+- [PMID 41223492] Empagliflozin versus metformin for glucose variability and metabolic outcomes in drug-naïve type 2 diabetes: The EMPA-FIT study. (2026): 50 or fewer participants; out of scope: outcome does not match | "In this multicenter, open-label, randomized study, 46 drug-naïve adults with T2D (HbA1c 6.5 %-10.0 %) recei..." https://pubmed.ncbi.nlm.nih.gov/41223492/
+
+--
+Run ID: 20261030-053718-aecf
+Synthetic records are fictional test fixtures, not medical evidence. This prototype does not provide medical advice.
+========================================================================
+Reviewer notes (not sent):
+- removed: unsupported claim "In blinded interim analyses at a mean follow-up time of 19.0 months in 2072 patients, the preliminary event rate of the primary composite endpoint was 11.7/100 patient-years in the whole study population, while rates of cardiovascular events and all-cause death were 0.6 and 0.3/100 patient-years, respectively." (quote not found in 41311237)
+- no cross-study comparison for the pubmed studies
+========================================================================

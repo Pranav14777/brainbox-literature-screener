@@ -1,0 +1,84 @@
+﻿Interpreted question:
+intervention: metformin ('metformin')
+outcome: cardiovascular ('cardiovascular outcomes')
+population: not stated; using the tool's scope (adults with type 2 diabetes)
+sources: synthetic
+recent only: no
+Screened 8 records: 3 included.
+========================================================================
+HUMAN REVIEW (round 1; change requests left: 2)
+EMAIL TO BE SENT
+========================================================================
+To:      gadampranav@gmail.com
+Subject: Literature screen: What do the eligible synthetic trials report about metformin and cardiovascul... (2026-10-30) [run 20261030-090021-d33b]
+------------------------------------------------------------------------
+QUESTION
+What do the eligible synthetic trials report about metformin and cardiovascular outcomes?
+
+INTERPRETATION
+intervention: metformin ('metformin')
+outcome: cardiovascular ('cardiovascular outcomes')
+population: not stated; using the tool's scope (adults with type 2 diabetes)
+sources: synthetic
+recent only: no
+
+SUMMARY
+SYNTHETIC DATASET (fictional test records, not medical evidence)
+- The composite outcome occurred in 12 participants receiving metformin and 20 receiving placebo at 18 months, with no confidence interval or p value reported. [SYN001]
+- During 18 months, events occurred in 24 of 160 participants assigned metformin and 16 of 160 assigned placebo, and the abstract provides no confidence interval or p value. [SYN002]
+- At 12 months, six events occurred with metformin and seven with placebo, with no confidence interval or p value reported. [SYN008]
+- In SYN001, events were fewer with metformin than with the comparator. In SYN002, events were more with metformin than with the comparator. In SYN008, events were fewer with metformin than with the comparator. The findings point in different directions. The studies also measured different follow-up periods and outcomes. [SYN001] [SYN002] [SYN008]
+
+EVIDENCE TABLE: SYNTHETIC DATASET (fictional test records, not medical evidence)
+
+Included (3)
+[SYN001] Metformin and cardiovascular events in adults with type 2 diabetes (2019)
+  population: 240 adults aged 40 to 75 years with type 2 diabetes ["This synthetic randomized, placebo-controlled trial enrolled 240 adults aged 40 to 75 years with type 2 diabetes."]
+  intervention: metformin ["Participants were randomized to metformin (120 participants) or placebo (120 participants) in addition to usual care."]
+  comparator: placebo ["Participants were randomized to metformin (120 participants) or placebo (120 participants) in addition to usual care."]
+  participants: 240 adults ["This synthetic randomized, placebo-controlled trial enrolled 240 adults aged 40 to 75 years with type 2 diabetes."]
+  primary outcome: composite of cardiovascular death, myocardial infarction and stroke ["The primary outcome was a composite of cardiovascular death, myocardial infarction and stroke at 18 months."]
+  follow up: 18 months ["The primary outcome was a composite of cardiovascular death, myocardial infarction and stroke at 18 months."]
+  intervention events: 12 ["The composite outcome occurred in 12 participants receiving metformin and 20 receiving placebo."]
+  comparator events: 20 ["The composite outcome occurred in 12 participants receiving metformin and 20 receiving placebo."]
+  effect estimate: not reported
+[SYN002] Cardiovascular outcomes with metformin compared with placebo (2022)
+  population: 320 adults with type 2 diabetes ["In this synthetic randomized, placebo-controlled trial, 320 adults with type 2 diabetes were randomized equally to metformin or placebo a..."]
+  intervention: metformin ["In this synthetic randomized, placebo-controlled trial, 320 adults with type 2 diabetes were randomized equally to metformin or placebo a..."]
+  comparator: placebo ["In this synthetic randomized, placebo-controlled trial, 320 adults with type 2 diabetes were randomized equally to metformin or placebo a..."]
+  participants: 320 adults ["In this synthetic randomized, placebo-controlled trial, 320 adults with type 2 diabetes were randomized equally to metformin or placebo a..."]
+  primary outcome: cardiovascular death, myocardial infarction or stroke ["The primary outcome was cardiovascular death, myocardial infarction or stroke during 18 months."]
+  follow up: 18 months ["The primary outcome was cardiovascular death, myocardial infarction or stroke during 18 months."]
+  intervention events: 24 of 160 ["Events occurred in 24 of 160 participants assigned metformin and 16 of 160 assigned placebo."]
+  comparator events: 16 of 160 ["Events occurred in 24 of 160 participants assigned metformin and 16 of 160 assigned placebo."]
+  effect estimate: not reported
+[SYN008] Randomized metformin study of cardiovascular events (2020)
+  population: 160 adults with type 2 diabetes ["This synthetic randomized placebo-controlled trial enrolled 160 adults with type 2 diabetes, with 80 randomized to each arm."]
+  intervention: metformin ["This synthetic randomized placebo-controlled trial enrolled 160 adults with type 2 diabetes, with 80 randomized to each arm."]
+  comparator: placebo ["This synthetic randomized placebo-controlled trial enrolled 160 adults with type 2 diabetes, with 80 randomized to each arm."]
+  participants: 160 adults ["This synthetic randomized placebo-controlled trial enrolled 160 adults with type 2 diabetes, with 80 randomized to each arm."]
+  primary outcome: myocardial infarction or stroke ["The primary endpoint was myocardial infarction or stroke at 12 months."]
+  follow up: 12 months ["The primary endpoint was myocardial infarction or stroke at 12 months."]
+  intervention events: six ["Six events occurred with metformin and seven with placebo."]
+  comparator events: seven ["Six events occurred with metformin and seven with placebo."]
+  effect estimate: not reported
+
+Needs review (1)
+- [SYN003] Metformin and cardiovascular events in a randomized adult diabetes trial (2021): missing or unclear: total sample size
+
+Excluded (4)
+- [SYN004] Earlier randomized metformin cardiovascular trial (2014): published before 2015 (other rules not checked) | published 2014 (metadata)
+- [SYN005] Metformin and cardiovascular injury in a mouse model (2020): animal study; out of scope: population does not match; out of scope: outcome does not match | "This synthetic laboratory experiment randomly allocated 80 mice with experimentally induced diabetes to met..."
+- [SYN006] A small randomized cardiovascular trial of metformin (2023): 50 or fewer participants | "This synthetic randomized controlled trial enrolled exactly 50 adults with type 2 diabetes: 25 were randomi..."
+- [SYN007] Metformin use and cardiovascular events in an observational cohort (2024): non-randomised study | design: non_randomised (metadata)
+
+--
+Run ID: 20261030-090021-d33b
+Synthetic records are fictional test fixtures, not medical evidence. This prototype does not provide medical advice.
+========================================================================
+Reviewer notes (not sent):
+- none
+========================================================================
+[a] approve and send  [r] reject (send nothing)  [e] edit recipient  [s] edit subject  [c] request changes to the summary
+> Rejected. Nothing was sent.
+Run file: D:\brainbox-literature-project\runs\20261030-090021-d33b.json

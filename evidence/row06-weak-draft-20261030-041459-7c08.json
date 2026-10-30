@@ -1,0 +1,1479 @@
+{
+  "run_id": "20261030-041459-7c08",
+  "question": "Which recent PubMed trials investigate metformin and cardiovascular outcomes in adults with type 2 diabetes?",
+  "created_at": "2026-10-30T03:14:59.960910Z",
+  "search_date": "2026-10-30",
+  "scenario": "smoke:pubmed-review-reject",
+  "mock": false,
+  "stage": "done",
+  "stop_reason": null,
+  "intake": {
+    "intervention": "metformin",
+    "outcome": "cardiovascular",
+    "population": "adults_t2d",
+    "sources": "pubmed",
+    "recency": true,
+    "intervention_wording": "metformin",
+    "outcome_wording": "cardiovascular outcomes",
+    "population_wording": "adults with type 2 diabetes"
+  },
+  "intake_scope_filled": [],
+  "clarification": null,
+  "synthetic_search": null,
+  "pubmed_search": {
+    "query": "(metformin[Title] OR metformin[MeSH Major Topic]) AND (\"diabetes mellitus, type 2\"[MeSH Terms] OR \"type 2 diabetes\"[Title/Abstract] OR \"type 2 diabetic\"[Title/Abstract] OR T2DM[Title/Abstract]) AND (\"cardiovascular diseases\"[MeSH Terms] OR cardiovascular[Title/Abstract] OR \"myocardial infarction\"[Title/Abstract] OR stroke[Title/Abstract] OR \"heart failure\"[Title/Abstract]) AND (\"randomized controlled trial\"[Publication Type] OR randomized[Title/Abstract] OR randomised[Title/Abstract]) NOT (Review[Publication Type] OR \"Systematic Review\"[Publication Type] OR \"Meta-Analysis\"[Publication Type] OR \"Clinical Trial Protocol\"[Publication Type])",
+    "min_date": "2021/10/30",
+    "max_date": "2026/10/30",
+    "total_matches": 60,
+    "retrieved_pmids": [
+      "36129997",
+      "38763510",
+      "38772405",
+      "39521399",
+      "41311237",
+      "38734755",
+      "41160096",
+      "41362917",
+      "41223492",
+      "39236318"
+    ],
+    "status": "ok"
+  },
+  "records": [
+    {
+      "record_id": "36129997",
+      "source_type": "pubmed",
+      "title": "Glycemia Reduction in Type 2 Diabetes - Microvascular and Cardiovascular Outcomes.",
+      "abstract": "BACKGROUND: Data are lacking on the comparative effectiveness of commonly used glucose-lowering medications, when added to metformin, with respect to microvascular and cardiovascular disease outcomes in persons with type 2 diabetes.\nMETHODS: We assessed the comparative effectiveness of four commonly used glucose-lowering medications, added to metformin, in achieving and maintaining a glycated hemoglobin level of less than 7.0% in participants with type 2 diabetes. The randomly assigned therapies were insulin glargine U-100 (hereafter, glargine), glimepiride, liraglutide, and sitagliptin. Prespecified secondary outcomes with respect to microvascular and cardiovascular disease included hypertension and dyslipidemia, confirmed moderately or severely increased albuminuria or an estimated glomerular filtration rate of less than 60 ml per minute per 1.73 m2 of body-surface area, diabetic peripheral neuropathy assessed with the Michigan Neuropathy Screening Instrument, cardiovascular events (major adverse cardiovascular events [MACE], hospitalization for heart failure, or an aggregate outcome of any cardiovascular event), and death. Hazard ratios are presented with 95% confidence limits that are not adjusted for multiple comparisons.\nRESULTS: During a mean 5.0 years of follow-up in 5047 participants, there were no material differences among the interventions with respect to the development of hypertension or dyslipidemia or with respect to microvascular outcomes; the mean overall rate (i.e., events per 100 participant-years) of moderately increased albuminuria levels was 2.6, of severely increased albuminuria levels 1.1, of renal impairment 2.9, and of diabetic peripheral neuropathy 16.7. The treatment groups did not differ with respect to MACE (overall rate, 1.0), hospitalization for heart failure (0.4), death from cardiovascular causes (0.3), or all deaths (0.6). There were small differences with respect to rates of any cardiovascular disease, with 1.9, 1.9, 1.4, and 2.0 in the glargine, glimepiride, liraglutide, and sitagliptin groups, respectively. When one treatment was compared with the combined results of the other three treatments, the hazard ratios for any cardiovascular disease were 1.1 (95% confidence interval [CI], 0.9 to 1.3) in the glargine group, 1.1 (95% CI, 0.9 to 1.4) in the glimepiride group, 0.7 (95% CI, 0.6 to 0.9) in the liraglutide group, and 1.2 (95% CI, 1.0 to 1.5) in the sitagliptin group.\nCONCLUSIONS: In participants with type 2 diabetes, the incidences of microvascular complications and death were not materially different among the four treatment groups. The findings indicated possible differences among the groups in the incidence of any cardiovascular disease. (Funded by the National Institute of Diabetes and Digestive and Kidney Diseases and others; GRADE ClinicalTrials.gov number, NCT01794143.).",
+      "publication_year": 2022,
+      "publication_types": [
+        "Comparative Study",
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "mesh_terms": [
+        "Albuminuria",
+        "Blood Glucose",
+        "Cardiovascular Diseases",
+        "Comparative Effectiveness Research",
+        "Diabetes Complications",
+        "Diabetes Mellitus, Type 2",
+        "Diabetic Neuropathies",
+        "Drug Therapy, Combination",
+        "Dyslipidemias",
+        "Glomerular Filtration Rate",
+        "Glycated Hemoglobin",
+        "Heart Failure",
+        "Humans",
+        "Hypertension",
+        "Hypoglycemic Agents",
+        "Insulin Glargine",
+        "Liraglutide",
+        "Metformin",
+        "Microvessels",
+        "Sitagliptin Phosphate",
+        "Sulfonylurea Compounds"
+      ],
+      "pmid": "36129997",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36129997/",
+      "retrieval_score": null
+    },
+    {
+      "record_id": "38763510",
+      "source_type": "pubmed",
+      "title": "Efficacy and Safety of Metformin and Atorvastatin Combination Therapy vs. Monotherapy with Either Drug in Type 2 Diabetes Mellitus and Dyslipidemia Patients (ATOMIC): Double-Blinded Randomized Controlled Trial.",
+      "abstract": "BACKGRUOUND: It is well known that a large number of patients with diabetes also have dyslipidemia, which significantly increases the risk of cardiovascular disease (CVD). This study aimed to evaluate the efficacy and safety of combination drugs consisting of metformin and atorvastatin, widely used as therapeutic agents for diabetes and dyslipidemia.\nMETHODS: This randomized, double-blind, placebo-controlled, parallel-group and phase III multicenter study included adults with glycosylated hemoglobin (HbA1c) levels >7.0% and <10.0%, low-density lipoprotein cholesterol (LDL-C) >100 and <250 mg/dL. One hundred eighty-five eligible subjects were randomized to the combination group (metformin+atorvastatin), metformin group (metformin+atorvastatin placebo), and atorvastatin group (atorvastatin+metformin placebo). The primary efficacy endpoints were the percent changes in HbA1c and LDL-C levels from baseline at the end of the treatment.\nRESULTS: After 16 weeks of treatment compared to baseline, HbA1c showed a significant difference of 0.94% compared to the atorvastatin group in the combination group (0.35% vs. -0.58%, respectively; P<0.0001), whereas the proportion of patients with increased HbA1c was also 62% and 15%, respectively, showing a significant difference (P<0.001). The combination group also showed a significant decrease in LDL-C levels compared to the metformin group (-55.20% vs. -7.69%, P<0.001) without previously unknown adverse drug events.\nCONCLUSION: The addition of atorvastatin to metformin improved HbA1c and LDL-C levels to a significant extent compared to metformin or atorvastatin alone in diabetes and dyslipidemia patients. This study also suggested metformin's preventive effect on the glucose-elevating potential of atorvastatin in patients with type 2 diabetes mellitus and dyslipidemia, insufficiently controlled with exercise and diet. Metformin and atorvastatin combination might be an effective treatment in reducing the CVD risk in patients with both diabetes and dyslipidemia because of its lowering effect on LDL-C and glucose.",
+      "publication_year": 2024,
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Multicenter Study",
+        "Clinical Trial, Phase III"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Atorvastatin",
+        "Metformin",
+        "Diabetes Mellitus, Type 2",
+        "Male",
+        "Female",
+        "Double-Blind Method",
+        "Middle Aged",
+        "Dyslipidemias",
+        "Drug Therapy, Combination",
+        "Glycated Hemoglobin",
+        "Hypoglycemic Agents",
+        "Aged",
+        "Cholesterol, LDL",
+        "Treatment Outcome",
+        "Adult"
+      ],
+      "pmid": "38763510",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38763510/",
+      "retrieval_score": null
+    },
+    {
+      "record_id": "38772405",
+      "source_type": "pubmed",
+      "title": "Post-trial monitoring of a randomised controlled trial of intensive glycaemic control in type 2 diabetes extended from 10 years to 24 years (UKPDS 91).",
+      "abstract": "BACKGROUND: The 20-year UK Prospective Diabetes Study showed major clinical benefits for people with newly diagnosed type 2 diabetes randomly allocated to intensive glycaemic control with sulfonylurea or insulin therapy or metformin therapy, compared with conventional glycaemic control. 10-year post-trial follow-up identified enduring and emerging glycaemic and metformin legacy treatment effects. We aimed to determine whether these effects would wane by extending follow-up for another 14 years.\nMETHODS: 5102 patients enrolled between 1977 and 1991, of whom 4209 (82·5%) participants were originally randomly allocated to receive either intensive glycaemic control (sulfonylurea or insulin, or if overweight, metformin) or conventional glycaemic control (primarily diet). At the end of the 20-year interventional trial, 3277 surviving participants entered a 10-year post-trial monitoring period, which ran until Sept 30, 2007. Eligible participants for this study were all surviving participants at the end of the 10-year post-trial monitoring period. An extended follow-up of these participants was done by linking them to their routinely collected National Health Service (NHS) data for another 14 years. Clinical outcomes were derived from records of deaths, hospital admissions, outpatient visits, and accident and emergency unit attendances. We examined seven prespecified aggregate clinical outcomes (ie, any diabetes-related endpoint, diabetes-related death, death from any cause, myocardial infarction, stroke, peripheral vascular disease, and microvascular disease) by the randomised glycaemic control strategy on an intention-to-treat basis using Kaplan-Meier time-to-event and log-rank analyses. This study is registered with the ISRCTN registry, number ISRCTN75451837.\nFINDINGS: Between Oct 1, 2007, and Sept 30, 2021, 1489 (97·6%) of 1525 participants could be linked to routinely collected NHS administrative data. Their mean age at baseline was 50·2 years (SD 8·0), and 41·3% were female. The mean age of those still alive as of Sept 30, 2021, was 79·9 years (SD 8·0). Individual follow-up from baseline ranged from 0 to 42 years, median 17·5 years (IQR 12·3-26·8). Overall follow-up increased by 21%, from 66 972 to 80 724 person-years. For up to 24 years after trial end, the glycaemic and metformin legacy effects showed no sign of waning. Early intensive glycaemic control with sulfonylurea or insulin therapy, compared with conventional glycaemic control, showed overall relative risk reductions of 10% (95% CI 2-17; p=0·015) for death from any cause, 17% (6-26; p=0·002) for myocardial infarction, and 26% (14-36; p<0·0001) for microvascular disease. Corresponding absolute risk reductions were 2·7%, 3·3%, and 3·5%, respectively. Early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk reductions of 20% (95% CI 5-32; p=0·010) for death from any cause and 31% (12-46; p=0·003) for myocardial infarction. Corresponding absolute risk reductions were 4·9% and 6·2%, respectively. No significant risk reductions during or after the trial for stroke or peripheral vascular disease were observed for both intensive glycaemic control groups, and no significant risk reduction for microvascular disease was observed for metformin therapy.\nINTERPRETATION: Early intensive glycaemic control with sulfonylurea or insulin, or with metformin, compared with conventional glycaemic control, appears to confer a near-lifelong reduced risk of death and myocardial infarction. Achieving near normoglycaemia immediately following diagnosis might be essential to minimise the lifetime risk of diabetes-related complications to the greatest extent possible.\nFUNDING: University of Oxford Nuffield Department of Population Health Pump Priming.",
+      "publication_year": 2024,
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Diabetes Mellitus, Type 2",
+        "Hypoglycemic Agents",
+        "Female",
+        "Insulin",
+        "Male",
+        "Sulfonylurea Compounds",
+        "Metformin",
+        "Middle Aged",
+        "Follow-Up Studies",
+        "Aged",
+        "Glycemic Control",
+        "United Kingdom",
+        "Glycated Hemoglobin",
+        "Adult",
+        "Treatment Outcome",
+        "Blood Glucose"
+      ],
+      "pmid": "38772405",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38772405/",
+      "retrieval_score": null
+    },
+    {
+      "record_id": "39521399",
+      "source_type": "pubmed",
+      "title": "Stopping Versus Continuing Metformin in Patients With Advanced CKD: A Nationwide Scottish Target Trial Emulation Study.",
+      "abstract": "RATIONALE & OBJECTIVE: Despite a lack of supporting evidence, current guidance recommends against the use of metformin in people with advanced kidney impairment. This observational study compared the outcomes of patients with type 2 diabetes who continued versus stopped metformin after developing stage 4 chronic kidney disease (CKD) (estimated glomerular filtration rate [eGFR]<30mL/min/1.73m2).\nSTUDY DESIGN: Nationwide observational cohort study.\nSETTING & PARTICIPANTS: All adults with type 2 diabetes and incident stage 4 CKD in Scotland who were treated with metformin between January 2010 and April 2019.\nEXPOSURE: Stopping versus continuing metformin within 6 months following incident stage 4 CKD.\nOUTCOME: Primary outcome was all-cause mortality. Secondary outcomes included major adverse cardiovascular events (MACE).\nANALYTICAL APPROACH: Target trial emulation with clone-censor-weight design and marginal structural models fit for sensitivity analyses.\nRESULTS: In a population of 371,742 Scottish residents with a diagnosis of type 2 diabetes before April 30, 2019, 4,278 were identified as prevalent metformin users with incident CKD stage 4. Within 6 months of developing CKD stage IV, 1,713 (40.1%) individuals discontinued metformin. Compared with continuing metformin, stopping metformin was associated with a lower 3-year survival (63.7% [95% CI, 60.9-66.6] vs 70.5% [95% CI, 68.0-73.0]; HR, 1.26 [95% CI, 1.10-1.44]), and the incidence of MACE was similar between both strategies (HR, 1.05 [95% CI, 0.88-1.26]). Marginal structural models confirmed the higher risk of all-cause mortality and similar risk of MACE in patients who stopped versus continued metformin (all-cause mortality: HR, 1.34 [95% CI, 1.08-1.67]; MACE: HR, 1.04 [95% CI, 0.81-1.33]).\nLIMITATIONS: Residual confounding.\nCONCLUSIONS: The continued use of metformin may be appropriate when eGFR falls below 30mL/min/1.73m2. Randomized controlled trials are needed to confirm these findings.\nPLAIN-LANGUAGE SUMMARY: Current guidance recommends against the use of metformin in people with advanced kidney impairment despite a lack of evidence. It is therefore currently unclear how the decision to stop versus continue metformin in patients who reach stage 4 CKD impacts their risk of mortality and cardiovascular events. This study showed that stopping metformin after reaching stage 4 CKD was associated with reduced survival that did not appear to be mediated by an increase in adverse cardiovascular outcomes. These findings may support the continued use of metformin in patients with advanced kidney impairment, but further research is needed to confirm these observations.",
+      "publication_year": 2025,
+      "publication_types": [
+        "Journal Article",
+        "Observational Study",
+        "Comparative Study"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Metformin",
+        "Male",
+        "Female",
+        "Diabetes Mellitus, Type 2",
+        "Scotland",
+        "Aged",
+        "Middle Aged",
+        "Hypoglycemic Agents",
+        "Renal Insufficiency, Chronic",
+        "Glomerular Filtration Rate",
+        "Cohort Studies",
+        "Withholding Treatment"
+      ],
+      "pmid": "39521399",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39521399/",
+      "retrieval_score": null
+    },
+    {
+      "record_id": "41311237",
+      "source_type": "pubmed",
+      "title": "SGLT2 inhibitor or metformin as standard treatment in early-stage type 2 diabetes? Baseline data in SMARTEST, a novel, decentralised, register-based randomised trial on prevention of diabetic complications.",
+      "abstract": "AIMS: Metformin has hitherto not been proven superior to other type 2 diabetes (T2D) medications for the prevention of organ complications. The aim of this study is to report baseline data and blinded interim analyses in the register-based randomised clinical trial (RRCT) SMARTEST, which compares metformin and the SGLT2 inhibitor dapagliflozin in early T2D. We also present learnings from the novel decentralised methodology of this first RRCT in diabetes care.\nMATERIALS AND METHODS: Participants with T2D since <4 years and without major cardiovascular or renal disease were included at 36 centres across Sweden between 2019 and 2023 at on-site visits or via remote inclusion using digital informed consent. Participants were randomised 1:1 to open-label dapagliflozin 10 mg/day or metformin at an individualised dose, and they are followed for 2-6 years, with blinding of researchers to endpoints per treatment arm. The composite primary endpoint is time to first event of: myocardial infarction, stroke, heart failure (MACE), appearance or progression of microvascular complications or all-cause death. These events are collected from the Swedish National Diabetes Register and the National Patient Register using automated extraction.\nRESULTS: A total of 2072 patients, mean age 61.2 years, 39% women, entered randomised treatment. Signs of nephropathy, retinopathy and foot-at-risk were found in 6.1%, 13.2%, and 5.7%, respectively. Hypertension was present in 64.4%, and dyslipidaemia in 57.1%. In blinded interim analyses at a mean follow-up time of 19.0 months, the preliminary event rate of the primary composite endpoint was 11.7/100 patient-years (py) in the whole study population, mainly driven by microvascular complications. In contrast, rates of cardiovascular events and all-cause death were 0.6 and 0.3/100 py, respectively.\nCONCLUSIONS: This decentralised RRCT in newly onset T2D demonstrates a highly feasible option for large-scale trials in the primary care setting, enabling representative participant recruitment. Blinded interim analyses showed a low risk of MACE or death, but unexpectedly high rates of microvascular complications. Study completion is event-driven and is expected by January 2026. The study will challenge or reinforce the current metformin paradigm in early T2D. (EUDRA-CT number 2019-001046-17; EU number 2024-516228-33-00; ClinicalTrials.gov Identifier: NCT03982381).",
+      "publication_year": 2026,
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Multicenter Study"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Diabetes Mellitus, Type 2",
+        "Metformin",
+        "Sodium-Glucose Transporter 2 Inhibitors",
+        "Female",
+        "Male",
+        "Middle Aged",
+        "Hypoglycemic Agents",
+        "Registries",
+        "Aged",
+        "Glucosides",
+        "Benzhydryl Compounds",
+        "Sweden",
+        "Diabetes Complications"
+      ],
+      "pmid": "41311237",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41311237/",
+      "retrieval_score": null
+    },
+    {
+      "record_id": "38734755",
+      "source_type": "pubmed",
+      "title": "Dapagliflozin added to metformin reduces perirenal fat layer in type 2 diabetic patients with obesity.",
+      "abstract": "Sodium-glucose co-transporters type 2 inhibitors (SLGT2i) are highly effective in controlling type 2 diabetes, but reported beneficial cardiovascular effects suggest broader actions on insulin resistance. Weight loss may be initially explained by glycosuria-induced net caloric output and secondary volumetric reduction, but its maintenance could be due to loss of visceral fat mass. Structured ultrasound (US) imaging of abdominal adipose tissue (\"eco-obesity\") is a recently described methodology used to measure 5 consecutive layers of abdominal fat, not assessable by DEXA or CT scan: superficial subcutaneous (SS), deep subcutaneous (DS), preperitoneal (PP), omental (Om) and right perirenal (RK). PP, Om and RK are predictors of metabolic syndrome (MS) with defined cut-off points. To assess the effect of SLGT2i on every fat depot we enrolled 29 patients with type 2 Diabetes (HbA1c 6.5-9%) and Obesity (IMC > 30 kg/m2) in an open-label, randomized, phase IV trial (EudraCT: 2019-000979-16): the Omendapa trial. Diabetes was diagnosed < 12 months before randomization and all patients were treatment naïve. 14 patients were treated with metformin alone (cohort A) and 15 were treated with metformin + dapaglifozin (cohort B). Anthropometric measures and laboratory tests for glucose, lipid profile, insulin, HOMA, leptin, ultrasensitive-CRP and microalbuminuria (MAL) were done at baseline, 3rd and 6th months. At 6th month, weight loss was -5.5 ± 5.2 kg (5.7% from initial weight) in cohort A and -8.4 ± 4.4 kg (8.6%) in cohort B. Abdominal circumference showed a -2.7 ± 3.1 cm and -5.4 ± 2.5 cm reduction, respectively (p = 0.011). Both Metformin alone (-19.4 ± 20.1 mm; -21.7%) or combined with Dapaglifozin (-20.5 ± 19.4 mm; -21.8%) induced significant Om fat reduction. 13.3% of cohort A patients and 21.4% of cohort's B reached Om thickness below the cut-off for MS criteria. RK fat loss was significantly greater in cohort B group compared to cohort A, at both kidneys. Only in the Met + Dapa group, we observed correlations between Om fat with leptin/CRP/MAL and RK fat with HOMA-IR. US is a useful clinical tool to assess ectopic fat depots. Both Metformin and Dapaglifozin induce fat loss in layers involved with MS but combined treatment is particularly effective in perirenal fat layer reduction. Perirenal fat should be considered as a potential target for cardiovascular dapaglifozin beneficial effects.",
+      "publication_year": 2024,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Randomized Controlled Trial",
+        "Clinical Trial, Phase IV"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Metformin",
+        "Diabetes Mellitus, Type 2",
+        "Glucosides",
+        "Female",
+        "Male",
+        "Obesity",
+        "Middle Aged",
+        "Benzhydryl Compounds",
+        "Sodium-Glucose Transporter 2 Inhibitors",
+        "Hypoglycemic Agents",
+        "Aged",
+        "Drug Therapy, Combination",
+        "Adult"
+      ],
+      "pmid": "38734755",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38734755/",
+      "retrieval_score": null
+    },
+    {
+      "record_id": "41160096",
+      "source_type": "pubmed",
+      "title": "Metformin Blunts Vascular Insulin Sensitivity After Exercise Training in Adults at Risk for Metabolic Syndrome.",
+      "abstract": "CONTEXT: Metformin is the first-line pharmacotherapy for treating hyperglycemia, and it lowers cardiovascular disease risk. Prior work suggests that metformin can, however, interfere with metabolic adaptations to exercise. To date, no work has tested if metformin (Met) alters exercise training mediated vascular insulin sensitivity, and whether this is exercise intensity dependent.\nOBJECTIVE: This work aimed to test the hypothesis that Met blunts vascular insulin sensitivity in an intensity-based manner among adults at risk for metabolic syndrome.\nMETHODS: In a double-blind, placebo-controlled trial, participants were randomly assigned to low-intensity exercise plus placebo (∼55% VO2max 5d/wk, LoEx + PL, n = 22) or metformin (2000 mg/d, LoEx + Met, n = 21) and high-intensity exercise plus placebo (∼85% VO2max 5d/wk, HiEx + PL, n = 24) or metformin (HiEx + Met, n = 24) for 16 weeks. A 120-minute euglycemic-hyperinsulinemic clamp (40 mU/m2/min, 90 mg/dL) was conducted pre and post treatment to assess macrovascular insulin sensitivity via brachial artery flow-mediated dilation (%FMD, conduit artery) as well as microvascular insulin sensitivity using contrast-enhanced ultrasound (eg, microvascular blood volume [MBV, perfusion] and microvascular blood flow [MBF]). Fasting and clamp-derived glucose, insulin, inflammatory measures (eg, endothelin-1 [ET-1], tumor necrosis factor α [TNF-α], soluble receptor for advanced glycation end products [sRAGE]), and nitric oxide (nitrite/nitrate) were assessed. Aerobic fitness (maximal oxygen consumption [VO2max]) and body composition (dual-energy x-ray absorptiometry [DXA]) were also analyzed.\nRESULTS: LoEx + PL and HiEx + PL increased VO2max (both P < .05), while there was no change after LoEx + Met or HiEx + Met. Body fat was reduced following HiEx + PL and HiEx + Met only (both P < .05). Met blunted the increase in insulin-stimulated FMDallometric and MBF seen with LoEx + PL and HiEx + PL (P < .05). Met also attenuated the reductions in fasting glucose, ET-1, and TNF-α compared with LoEx + PL and HiEx + PL (P < .05).\nCONCLUSION: Met blunts exercise training-mediated increases in vascular insulin sensitivity at the levels of conduit arteries and capillaries, in parallel with altered inflammation and glycemic benefits.",
+      "publication_year": 2026,
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Metformin",
+        "Metabolic Syndrome",
+        "Male",
+        "Insulin Resistance",
+        "Female",
+        "Double-Blind Method",
+        "Adult",
+        "Exercise",
+        "Middle Aged",
+        "Hypoglycemic Agents",
+        "Blood Glucose",
+        "Glucose Clamp Technique"
+      ],
+      "pmid": "41160096",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41160096/",
+      "retrieval_score": null
+    },
+    {
+      "record_id": "41362917",
+      "source_type": "pubmed",
+      "title": "Metformin alleviates diastolic dysfunction in mice with experimental diabetic cardiomyopathy.",
+      "abstract": "The first line therapy for managing type 2 diabetes (T2D), metformin, has been shown to be cardioprotective in humans and several preclinical models of cardiovascular disease. However, there has been limited interrogation into metformin's effects on diastolic function, a hallmark characteristic of diabetic cardiomyopathy (DbCM), which is becoming increasingly prevalent in people with pre- and early-stage T2D. Accordingly, we aimed to determine the effects of metformin on the pathogenesis of DbCM and hypothesized that treatment with metformin would alleviate diastolic dysfunction in mice with T2D. To induce experimental T2D and DbCM, male C57BL/6J mice were fed a high-fat diet for 12.5 weeks, in combination with a single, low-dose injection of streptozotocin (75 mg/kg) at week 4.5. The animals' drinking water was randomized to include either vehicle control or metformin (3.0 g/L) during the final 7.5 weeks. As expected, metformin treatment improved glycemia with a trend towards a reduction in adiposity in mice with T2D. Using ultrasound echocardiography, we observed that metformin improved diastolic function in mice with T2D as reflected by an increase and a decrease in the e'/a' and E/e' ratios, respectively. Furthermore, wheat-germ agglutinin staining indicated that treatment with metformin decreased cardiomyocyte hypertrophy in mice with T2D. However, mice with T2D treated with metformin did not exhibit increases in myocardial adenosine monophosphate-activated protein kinase (AMPK) phosphorylation. Thus, our findings suggest that metformin has salutary actions against DbCM and its associated diastolic dysfunction, which may be independent of its ability to increase AMPK activity.",
+      "publication_year": 2025,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "pmid": "41362917",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41362917/",
+      "retrieval_score": null
+    },
+    {
+      "record_id": "41223492",
+      "source_type": "pubmed",
+      "title": "Empagliflozin versus metformin for glucose variability and metabolic outcomes in drug-naïve type 2 diabetes: The EMPA-FIT study.",
+      "abstract": "AIMS: Sodium-glucose cotransporter-2 (SGLT2) inhibitors offer cardiovascular and renal benefits beyond glycemic control. However, their effect on glucose variability (GV) in drug-naïve individuals with type 2 diabetes (T2D) is not well established. This study compared the effects of empagliflozin versus metformin on GV and metabolic outcomes.\nMETHODS: In this multicenter, open-label, randomized study, 46 drug-naïve adults with T2D (HbA1c 6.5 %-10.0 %) received empagliflozin (10 mg/day; n = 23) or metformin (1000 mg/day; n = 23) for 12 weeks. The primary outcome was change in mean amplitude of glucose excursions (MAGE), assessed by continuous glucose monitoring. Secondary outcomes included standard deviation of glucose, time-in-range (TIR), metabolic parameters, and safety.\nRESULTS: At Week 12, empagliflozin significantly reduced MAGE (-19.58 mg/dL; 95 % CI: -30.62, -8.53) compared with metformin (-4.33 mg/dL; 95 % CI: -7.98, -0.68) (n = 19 vs. n = 18, respectively). TIR improved in both groups, with no significant between-group differences. Empagliflozin treatment led to greater reductions in body weight and waist circumference, along with increases in HDL-cholesterol and decreases in triglyceride and uric acid levels. The decrease in HbA1c from baseline was greater in the empagliflozin group (-1.15 % [95 % CI: -1.44, -0.85]) than in the metformin group (-0.78 % [95 % CI: -1.02, -0.54]), resulting in a statistically significant between-group difference (p = 0.049). Adverse events were mild and comparable between groups.\nCONCLUSIONS: Empagliflozin significantly reduced GV and provided additional metabolic benefits in drug-naïve individuals with T2D. These findings support its potential utility in early diabetes management, particularly in targeting glycemic variability.",
+      "publication_year": 2026,
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Multicenter Study",
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Diabetes Mellitus, Type 2",
+        "Benzhydryl Compounds",
+        "Glucosides",
+        "Metformin",
+        "Female",
+        "Male",
+        "Middle Aged",
+        "Hypoglycemic Agents",
+        "Blood Glucose",
+        "Sodium-Glucose Transporter 2 Inhibitors",
+        "Aged",
+        "Adult",
+        "Treatment Outcome",
+        "Glycated Hemoglobin",
+        "Glycemic Control"
+      ],
+      "pmid": "41223492",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41223492/",
+      "retrieval_score": null
+    },
+    {
+      "record_id": "39236318",
+      "source_type": "pubmed",
+      "title": "Association Between Metformin Use in Early Gestational or Type 2 Diabetes in Pregnancy and Preterm Preeclampsia.",
+      "abstract": "OBJECTIVE: To estimate the association between maternal metformin use for the treatment of early gestational or pre-existing type 2 diabetes and preterm preeclampsia.\nMETHODS: This is a planned secondary analysis of the MOMPOD study (Medical Optimization of Management of Overt Type 2 Diabetes in Pregnancy), a randomized trial comparing the effect of adding metformin with insulin treatment on composite neonatal outcome in singleton pregnancies with early gestational or type 2 diabetes. Participants were randomized at 11-23 weeks of gestation to 1,000 mg metformin twice daily or placebo until delivery. A subset of participants had maternal blood collected at 24-30 weeks of gestation, and serum soluble endoglin, apolipoprotein B, vascular cell adhesion molecule-1, soluble fms-like tyrosine kinase 1, placental growth factor, high-sensitivity C-reactive protein, adiponectin, and vascular endothelial growth factor levels were measured. Our primary outcome was preterm preeclampsia , defined as preeclampsia requiring delivery before 37 weeks of gestation. Secondary outcomes included preterm preeclampsia requiring delivery before 34 weeks of gestation and differences in serum biomarkers. Multivariable regression analysis was used to estimate the associations between metformin use and primary or secondary study outcomes.\nRESULTS: Of 831 participants, 119 (14.3%) developed preeclampsia requiring delivery before 37 weeks of gestation: 57 of 416 (13.7%) in the placebo group and 62 of 415 (14.9%) in the metformin group. Thirty-seven (4.4%) developed preeclampsia requiring delivery before 34 weeks of gestation: 15 (3.6%) receiving placebo and 22 (5.3%) receiving metformin. Compared with placebo, metformin was not associated with a significant difference in the occurrence of preeclampsia before 37 weeks of gestation (adjusted odds ratio [aOR] 1.04, 95% CI, 0.70-1.56) or before 34 weeks (aOR 1.43, 95% CI, 0.73-2.81). Similarly, there was no association between maternal metformin use and serum biomarker levels.\nCONCLUSION: Among parturients with early gestational or pre-existing type 2 diabetes, the addition of metformin to insulin was not associated with lower odds of preterm preeclampsia or with serum biomarkers associated with cardiovascular disease risk.",
+      "publication_year": 2024,
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Metformin",
+        "Pregnancy",
+        "Pre-Eclampsia",
+        "Diabetes Mellitus, Type 2",
+        "Hypoglycemic Agents",
+        "Adult",
+        "Diabetes, Gestational",
+        "Biomarkers",
+        "Endoglin",
+        "Placenta Growth Factor",
+        "Insulin",
+        "Vascular Endothelial Growth Factor Receptor-1",
+        "Pregnancy in Diabetics",
+        "C-Reactive Protein",
+        "Adiponectin"
+      ],
+      "pmid": "39236318",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39236318/",
+      "retrieval_score": null
+    }
+  ],
+  "extractions": [
+    {
+      "record_id": "36129997",
+      "facts": {
+        "total_sample_size": {
+          "value": 5047,
+          "quote": "During a mean 5.0 years of follow-up in 5047 participants"
+        },
+        "group_sizes": [],
+        "species": {
+          "value": "human",
+          "quote": "participants with type 2 diabetes"
+        },
+        "design": {
+          "value": "randomised",
+          "quote": "The randomly assigned therapies were insulin glargine U-100 (hereafter, glargine), glimepiride, liraglutide, and sitagliptin."
+        },
+        "population_match": {
+          "value": "yes",
+          "quote": "in participants with type 2 diabetes."
+        },
+        "intervention_match": {
+          "value": "yes",
+          "quote": "four commonly used glucose-lowering medications, added to metformin"
+        },
+        "outcome_match": {
+          "value": "yes",
+          "quote": "cardiovascular disease outcomes in persons with type 2 diabetes."
+        }
+      },
+      "check_failures": []
+    },
+    {
+      "record_id": "38763510",
+      "facts": {
+        "total_sample_size": null,
+        "group_sizes": [],
+        "species": {
+          "value": "human",
+          "quote": "This randomized, double-blind, placebo-controlled, parallel-group and phase III multicenter study included adults with glycosylated hemoglobin (HbA1c) levels >7.0% and <10.0%, low-density lipoprotein cholesterol (LDL-C) >100 and <250 mg/dL."
+        },
+        "design": {
+          "value": "randomised",
+          "quote": "This randomized, double-blind, placebo-controlled, parallel-group and phase III multicenter study included adults with glycosylated hemoglobin (HbA1c) levels >7.0% and <10.0%, low-density lipoprotein cholesterol (LDL-C) >100 and <250 mg/dL."
+        },
+        "population_match": {
+          "value": "yes",
+          "quote": "This study also suggested metformin's preventive effect on the glucose-elevating potential of atorvastatin in patients with type 2 diabetes mellitus and dyslipidemia, insufficiently controlled with exercise and diet."
+        },
+        "intervention_match": {
+          "value": "yes",
+          "quote": "This study aimed to evaluate the efficacy and safety of combination drugs consisting of metformin and atorvastatin, widely used as therapeutic agents for diabetes and dyslipidemia."
+        },
+        "outcome_match": {
+          "value": "no",
+          "quote": "The primary efficacy endpoints were the percent changes in HbA1c and LDL-C levels from baseline at the end of the treatment."
+        }
+      },
+      "check_failures": [
+        "total sample size: 185 does not appear in its quote"
+      ]
+    },
+    {
+      "record_id": "38772405",
+      "facts": {
+        "total_sample_size": {
+          "value": 5102,
+          "quote": "METHODS: 5102 patients enrolled between 1977 and 1991"
+        },
+        "group_sizes": [],
+        "species": {
+          "value": "human",
+          "quote": "5102 patients enrolled between 1977 and 1991"
+        },
+        "design": {
+          "value": "randomised",
+          "quote": "randomly allocated to receive either intensive glycaemic control (sulfonylurea or insulin, or if overweight, metformin) or conventional glycaemic control"
+        },
+        "population_match": {
+          "value": "yes",
+          "quote": "The 20-year UK Prospective Diabetes Study showed major clinical benefits for people with newly diagnosed type 2 diabetes randomly allocated to intensive glycaemic control with sulfonylurea or insulin therapy or metformin therapy, compared with conventional glycaemic control."
+        },
+        "intervention_match": {
+          "value": "yes",
+          "quote": "Early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk reductions of 20% (95% CI 5-32; p=0·010) for death from any cause and 31% (12-46; p=0·003) for myocardial infarction."
+        },
+        "outcome_match": {
+          "value": "yes",
+          "quote": "We examined seven prespecified aggregate clinical outcomes (ie, any diabetes-related endpoint, diabetes-related death, death from any cause, myocardial infarction, stroke, peripheral vascular disease, and microvascular disease) by the randomised glycaemic control strategy on an intention-to-treat basis using Kaplan-Meier time-to-event and log-rank analyses."
+        }
+      },
+      "check_failures": []
+    },
+    {
+      "record_id": "39521399",
+      "facts": {
+        "total_sample_size": {
+          "value": 4278,
+          "quote": "4,278 were identified as prevalent metformin users with incident CKD stage 4."
+        },
+        "group_sizes": [
+          {
+            "value": 1713,
+            "quote": "1,713 (40.1%) individuals discontinued metformin."
+          }
+        ],
+        "species": {
+          "value": "human",
+          "quote": "adults with type 2 diabetes"
+        },
+        "design": {
+          "value": "non_randomised",
+          "quote": "This observational study compared the outcomes of patients with type 2 diabetes who continued versus stopped metformin after developing stage 4 chronic kidney disease (CKD)"
+        },
+        "population_match": {
+          "value": "yes",
+          "quote": "patients with type 2 diabetes"
+        },
+        "intervention_match": {
+          "value": "yes",
+          "quote": "compared the outcomes of patients with type 2 diabetes who continued versus stopped metformin"
+        },
+        "outcome_match": {
+          "value": "yes",
+          "quote": "Secondary outcomes included major adverse cardiovascular events (MACE)."
+        }
+      },
+      "check_failures": []
+    },
+    {
+      "record_id": "41311237",
+      "facts": {
+        "total_sample_size": {
+          "value": 2072,
+          "quote": "A total of 2072 patients, mean age 61.2 years, 39% women, entered randomised treatment."
+        },
+        "group_sizes": [],
+        "species": {
+          "value": "human",
+          "quote": "A total of 2072 patients, mean age 61.2 years, 39% women, entered randomised treatment."
+        },
+        "design": {
+          "value": "randomised",
+          "quote": "register-based randomised clinical trial (RRCT) SMARTEST, which compares metformin and the SGLT2 inhibitor dapagliflozin in early T2D."
+        },
+        "population_match": {
+          "value": "yes",
+          "quote": "Participants with T2D since <4 years and without major cardiovascular or renal disease were included at 36 centres across Sweden between 2019 and 2023 at on-site visits or via remote inclusion using digital informed consent."
+        },
+        "intervention_match": {
+          "value": "yes",
+          "quote": "Participants were randomised 1:1 to open-label dapagliflozin 10 mg/day or metformin at an individualised dose, and they are followed for 2-6 years, with blinding of researchers to endpoints per treatment arm."
+        },
+        "outcome_match": {
+          "value": "yes",
+          "quote": "The composite primary endpoint is time to first event of: myocardial infarction, stroke, heart failure (MACE), appearance or progression of microvascular complications or all-cause death."
+        }
+      },
+      "check_failures": []
+    },
+    {
+      "record_id": "38734755",
+      "facts": {
+        "total_sample_size": {
+          "value": 29,
+          "quote": "we enrolled 29 patients with type 2 Diabetes"
+        },
+        "group_sizes": [
+          {
+            "value": 14,
+            "quote": "14 patients were treated with metformin alone (cohort A)"
+          },
+          {
+            "value": 15,
+            "quote": "15 were treated with metformin + dapaglifozin (cohort B)"
+          }
+        ],
+        "species": {
+          "value": "human",
+          "quote": "we enrolled 29 patients with type 2 Diabetes"
+        },
+        "design": {
+          "value": "randomised",
+          "quote": "randomized, phase IV trial"
+        },
+        "population_match": {
+          "value": "yes",
+          "quote": "29 patients with type 2 Diabetes (HbA1c 6.5-9%) and Obesity (IMC > 30 kg/m2)"
+        },
+        "intervention_match": {
+          "value": "yes",
+          "quote": "14 patients were treated with metformin alone (cohort A)"
+        },
+        "outcome_match": {
+          "value": "no",
+          "quote": "Perirenal fat should be considered as a potential target for cardiovascular dapaglifozin beneficial effects."
+        }
+      },
+      "check_failures": []
+    },
+    {
+      "record_id": "41160096",
+      "facts": {
+        "total_sample_size": null,
+        "group_sizes": [
+          {
+            "value": 22,
+            "quote": "LoEx + PL, n = 22"
+          },
+          {
+            "value": 21,
+            "quote": "LoEx + Met, n = 21"
+          },
+          {
+            "value": 24,
+            "quote": "HiEx + PL, n = 24"
+          },
+          {
+            "value": 24,
+            "quote": "HiEx + Met, n = 24"
+          }
+        ],
+        "species": {
+          "value": "human",
+          "quote": "participants were randomly assigned"
+        },
+        "design": {
+          "value": "randomised",
+          "quote": "participants were randomly assigned"
+        },
+        "population_match": {
+          "value": "no",
+          "quote": "adults at risk for metabolic syndrome"
+        },
+        "intervention_match": {
+          "value": "yes",
+          "quote": "metformin"
+        },
+        "outcome_match": {
+          "value": "yes",
+          "quote": "cardiovascular disease risk"
+        }
+      },
+      "check_failures": [
+        "total sample size: quote not found in abstract"
+      ]
+    },
+    {
+      "record_id": "41362917",
+      "facts": {
+        "total_sample_size": null,
+        "group_sizes": [],
+        "species": {
+          "value": "animal",
+          "quote": "To induce experimental T2D and DbCM, male C57BL/6J mice were fed a high-fat diet for 12.5 weeks"
+        },
+        "design": {
+          "value": "randomised",
+          "quote": "The animals' drinking water was randomized to include either vehicle control or metformin (3.0 g/L) during the final 7.5 weeks."
+        },
+        "population_match": {
+          "value": "no",
+          "quote": "To induce experimental T2D and DbCM, male C57BL/6J mice were fed a high-fat diet for 12.5 weeks"
+        },
+        "intervention_match": {
+          "value": "yes",
+          "quote": "The animals' drinking water was randomized to include either vehicle control or metformin (3.0 g/L) during the final 7.5 weeks."
+        },
+        "outcome_match": {
+          "value": "no",
+          "quote": "we observed that metformin improved diastolic function in mice with T2D as reflected by an increase and a decrease in the e'/a' and E/e' ratios, respectively."
+        }
+      },
+      "check_failures": []
+    },
+    {
+      "record_id": "41223492",
+      "facts": {
+        "total_sample_size": {
+          "value": 46,
+          "quote": "In this multicenter, open-label, randomized study, 46 drug-naïve adults with T2D (HbA1c 6.5 %-10.0 %) received empagliflozin (10 mg/day; n = 23) or metformin (1000 mg/day; n = 23) for 12 weeks."
+        },
+        "group_sizes": [
+          {
+            "value": 23,
+            "quote": "In this multicenter, open-label, randomized study, 46 drug-naïve adults with T2D (HbA1c 6.5 %-10.0 %) received empagliflozin (10 mg/day; n = 23) or metformin (1000 mg/day; n = 23) for 12 weeks."
+          },
+          {
+            "value": 23,
+            "quote": "In this multicenter, open-label, randomized study, 46 drug-naïve adults with T2D (HbA1c 6.5 %-10.0 %) received empagliflozin (10 mg/day; n = 23) or metformin (1000 mg/day; n = 23) for 12 weeks."
+          }
+        ],
+        "species": {
+          "value": "human",
+          "quote": "adults with T2D"
+        },
+        "design": {
+          "value": "randomised",
+          "quote": "randomized study"
+        },
+        "population_match": {
+          "value": "yes",
+          "quote": "adults with T2D"
+        },
+        "intervention_match": {
+          "value": "yes",
+          "quote": "metformin"
+        },
+        "outcome_match": {
+          "value": "no",
+          "quote": "The primary outcome was change in mean amplitude of glucose excursions (MAGE), assessed by continuous glucose monitoring."
+        }
+      },
+      "check_failures": []
+    },
+    {
+      "record_id": "39236318",
+      "facts": {
+        "total_sample_size": {
+          "value": 831,
+          "quote": "Of 831 participants, 119 (14.3%) developed preeclampsia requiring delivery before 37 weeks of gestation: 57 of 416 (13.7%) in the placebo group and 62 of 415 (14.9%) in the metformin group."
+        },
+        "group_sizes": [
+          {
+            "value": 416,
+            "quote": "57 of 416 (13.7%) in the placebo group"
+          },
+          {
+            "value": 415,
+            "quote": "62 of 415 (14.9%) in the metformin group."
+          }
+        ],
+        "species": {
+          "value": "human",
+          "quote": "Participants were randomized at 11-23 weeks of gestation to 1,000 mg metformin twice daily or placebo until delivery."
+        },
+        "design": {
+          "value": "randomised",
+          "quote": "a randomized trial comparing the effect of adding metformin with insulin treatment on composite neonatal outcome in singleton pregnancies with early gestational or type 2 diabetes."
+        },
+        "population_match": {
+          "value": "yes",
+          "quote": "To estimate the association between maternal metformin use for the treatment of early gestational or pre-existing type 2 diabetes and preterm preeclampsia."
+        },
+        "intervention_match": {
+          "value": "yes",
+          "quote": "a randomized trial comparing the effect of adding metformin with insulin treatment on composite neonatal outcome in singleton pregnancies with early gestational or type 2 diabetes."
+        },
+        "outcome_match": {
+          "value": "no",
+          "quote": "Our primary outcome was preterm preeclampsia , defined as preeclampsia requiring delivery before 37 weeks of gestation."
+        }
+      },
+      "check_failures": []
+    }
+  ],
+  "decisions": [
+    {
+      "record_id": "36129997",
+      "source_type": "pubmed",
+      "decision": "include",
+      "failed_rules": [],
+      "missing_details": [],
+      "evidence": [
+        {
+          "fact": "species: human",
+          "quote": null,
+          "metadata_field": "mesh_terms"
+        },
+        {
+          "fact": "design: randomised",
+          "quote": null,
+          "metadata_field": "publication_types"
+        },
+        {
+          "fact": "published 2022",
+          "quote": null,
+          "metadata_field": "publication_year"
+        },
+        {
+          "fact": "total sample size: 5047",
+          "quote": "During a mean 5.0 years of follow-up in 5047 participants",
+          "metadata_field": null
+        },
+        {
+          "fact": "population matches",
+          "quote": "in participants with type 2 diabetes.",
+          "metadata_field": null
+        },
+        {
+          "fact": "intervention matches",
+          "quote": "four commonly used glucose-lowering medications, added to metformin",
+          "metadata_field": null
+        },
+        {
+          "fact": "outcome matches",
+          "quote": "cardiovascular disease outcomes in persons with type 2 diabetes.",
+          "metadata_field": null
+        }
+      ],
+      "notes": [],
+      "metadata_only": false
+    },
+    {
+      "record_id": "38763510",
+      "source_type": "pubmed",
+      "decision": "exclude",
+      "failed_rules": [
+        "out of scope: outcome does not match"
+      ],
+      "missing_details": [],
+      "evidence": [
+        {
+          "fact": "species: human",
+          "quote": null,
+          "metadata_field": "mesh_terms"
+        },
+        {
+          "fact": "design: randomised",
+          "quote": null,
+          "metadata_field": "publication_types"
+        },
+        {
+          "fact": "published 2024",
+          "quote": null,
+          "metadata_field": "publication_year"
+        },
+        {
+          "fact": "population matches",
+          "quote": "This study also suggested metformin's preventive effect on the glucose-elevating potential of atorvastatin in patients with type 2 diabetes mellitus and dyslipidemia, insufficiently controlled with exercise and diet.",
+          "metadata_field": null
+        },
+        {
+          "fact": "intervention matches",
+          "quote": "This study aimed to evaluate the efficacy and safety of combination drugs consisting of metformin and atorvastatin, widely used as therapeutic agents for diabetes and dyslipidemia.",
+          "metadata_field": null
+        },
+        {
+          "fact": "outcome does not match",
+          "quote": "The primary efficacy endpoints were the percent changes in HbA1c and LDL-C levels from baseline at the end of the treatment.",
+          "metadata_field": null
+        }
+      ],
+      "notes": [
+        "check failed: total sample size: 185 does not appear in its quote"
+      ],
+      "metadata_only": false
+    },
+    {
+      "record_id": "38772405",
+      "source_type": "pubmed",
+      "decision": "include",
+      "failed_rules": [],
+      "missing_details": [],
+      "evidence": [
+        {
+          "fact": "species: human",
+          "quote": null,
+          "metadata_field": "mesh_terms"
+        },
+        {
+          "fact": "design: randomised",
+          "quote": null,
+          "metadata_field": "publication_types"
+        },
+        {
+          "fact": "published 2024",
+          "quote": null,
+          "metadata_field": "publication_year"
+        },
+        {
+          "fact": "total sample size: 5102",
+          "quote": "METHODS: 5102 patients enrolled between 1977 and 1991",
+          "metadata_field": null
+        },
+        {
+          "fact": "population matches",
+          "quote": "The 20-year UK Prospective Diabetes Study showed major clinical benefits for people with newly diagnosed type 2 diabetes randomly allocated to intensive glycaemic control with sulfonylurea or insulin therapy or metformin therapy, compared with conventional glycaemic control.",
+          "metadata_field": null
+        },
+        {
+          "fact": "intervention matches",
+          "quote": "Early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk reductions of 20% (95% CI 5-32; p=0·010) for death from any cause and 31% (12-46; p=0·003) for myocardial infarction.",
+          "metadata_field": null
+        },
+        {
+          "fact": "outcome matches",
+          "quote": "We examined seven prespecified aggregate clinical outcomes (ie, any diabetes-related endpoint, diabetes-related death, death from any cause, myocardial infarction, stroke, peripheral vascular disease, and microvascular disease) by the randomised glycaemic control strategy on an intention-to-treat basis using Kaplan-Meier time-to-event and log-rank analyses.",
+          "metadata_field": null
+        }
+      ],
+      "notes": [],
+      "metadata_only": false
+    },
+    {
+      "record_id": "39521399",
+      "source_type": "pubmed",
+      "decision": "exclude",
+      "failed_rules": [
+        "non-randomised study"
+      ],
+      "missing_details": [],
+      "evidence": [
+        {
+          "fact": "species: human",
+          "quote": null,
+          "metadata_field": "mesh_terms"
+        },
+        {
+          "fact": "design: non_randomised",
+          "quote": null,
+          "metadata_field": "publication_types"
+        },
+        {
+          "fact": "published 2025",
+          "quote": null,
+          "metadata_field": "publication_year"
+        },
+        {
+          "fact": "total sample size: 4278",
+          "quote": "4,278 were identified as prevalent metformin users with incident CKD stage 4.",
+          "metadata_field": null
+        },
+        {
+          "fact": "population matches",
+          "quote": "patients with type 2 diabetes",
+          "metadata_field": null
+        },
+        {
+          "fact": "intervention matches",
+          "quote": "compared the outcomes of patients with type 2 diabetes who continued versus stopped metformin",
+          "metadata_field": null
+        },
+        {
+          "fact": "outcome matches",
+          "quote": "Secondary outcomes included major adverse cardiovascular events (MACE).",
+          "metadata_field": null
+        }
+      ],
+      "notes": [],
+      "metadata_only": false
+    },
+    {
+      "record_id": "41311237",
+      "source_type": "pubmed",
+      "decision": "include",
+      "failed_rules": [],
+      "missing_details": [],
+      "evidence": [
+        {
+          "fact": "species: human",
+          "quote": null,
+          "metadata_field": "mesh_terms"
+        },
+        {
+          "fact": "design: randomised",
+          "quote": null,
+          "metadata_field": "publication_types"
+        },
+        {
+          "fact": "published 2026",
+          "quote": null,
+          "metadata_field": "publication_year"
+        },
+        {
+          "fact": "total sample size: 2072",
+          "quote": "A total of 2072 patients, mean age 61.2 years, 39% women, entered randomised treatment.",
+          "metadata_field": null
+        },
+        {
+          "fact": "population matches",
+          "quote": "Participants with T2D since <4 years and without major cardiovascular or renal disease were included at 36 centres across Sweden between 2019 and 2023 at on-site visits or via remote inclusion using digital informed consent.",
+          "metadata_field": null
+        },
+        {
+          "fact": "intervention matches",
+          "quote": "Participants were randomised 1:1 to open-label dapagliflozin 10 mg/day or metformin at an individualised dose, and they are followed for 2-6 years, with blinding of researchers to endpoints per treatment arm.",
+          "metadata_field": null
+        },
+        {
+          "fact": "outcome matches",
+          "quote": "The composite primary endpoint is time to first event of: myocardial infarction, stroke, heart failure (MACE), appearance or progression of microvascular complications or all-cause death.",
+          "metadata_field": null
+        }
+      ],
+      "notes": [],
+      "metadata_only": false
+    },
+    {
+      "record_id": "38734755",
+      "source_type": "pubmed",
+      "decision": "exclude",
+      "failed_rules": [
+        "50 or fewer participants",
+        "out of scope: outcome does not match"
+      ],
+      "missing_details": [],
+      "evidence": [
+        {
+          "fact": "species: human",
+          "quote": null,
+          "metadata_field": "mesh_terms"
+        },
+        {
+          "fact": "design: randomised",
+          "quote": null,
+          "metadata_field": "publication_types"
+        },
+        {
+          "fact": "published 2024",
+          "quote": null,
+          "metadata_field": "publication_year"
+        },
+        {
+          "fact": "total sample size: 29",
+          "quote": "we enrolled 29 patients with type 2 Diabetes",
+          "metadata_field": null
+        },
+        {
+          "fact": "population matches",
+          "quote": "29 patients with type 2 Diabetes (HbA1c 6.5-9%) and Obesity (IMC > 30 kg/m2)",
+          "metadata_field": null
+        },
+        {
+          "fact": "intervention matches",
+          "quote": "14 patients were treated with metformin alone (cohort A)",
+          "metadata_field": null
+        },
+        {
+          "fact": "outcome does not match",
+          "quote": "Perirenal fat should be considered as a potential target for cardiovascular dapaglifozin beneficial effects.",
+          "metadata_field": null
+        }
+      ],
+      "notes": [],
+      "metadata_only": false
+    },
+    {
+      "record_id": "41160096",
+      "source_type": "pubmed",
+      "decision": "exclude",
+      "failed_rules": [
+        "out of scope: population does not match"
+      ],
+      "missing_details": [],
+      "evidence": [
+        {
+          "fact": "species: human",
+          "quote": null,
+          "metadata_field": "mesh_terms"
+        },
+        {
+          "fact": "design: randomised",
+          "quote": null,
+          "metadata_field": "publication_types"
+        },
+        {
+          "fact": "published 2026",
+          "quote": null,
+          "metadata_field": "publication_year"
+        },
+        {
+          "fact": "group size: 22",
+          "quote": "LoEx + PL, n = 22",
+          "metadata_field": null
+        },
+        {
+          "fact": "group size: 21",
+          "quote": "LoEx + Met, n = 21",
+          "metadata_field": null
+        },
+        {
+          "fact": "group size: 24",
+          "quote": "HiEx + PL, n = 24",
+          "metadata_field": null
+        },
+        {
+          "fact": "group size: 24",
+          "quote": "HiEx + Met, n = 24",
+          "metadata_field": null
+        },
+        {
+          "fact": "population does not match",
+          "quote": "adults at risk for metabolic syndrome",
+          "metadata_field": null
+        },
+        {
+          "fact": "intervention matches",
+          "quote": "metformin",
+          "metadata_field": null
+        },
+        {
+          "fact": "outcome matches",
+          "quote": "cardiovascular disease risk",
+          "metadata_field": null
+        }
+      ],
+      "notes": [
+        "check failed: total sample size: quote not found in abstract",
+        "total sample size 91 is the sum of group sizes"
+      ],
+      "metadata_only": false
+    },
+    {
+      "record_id": "41362917",
+      "source_type": "pubmed",
+      "decision": "exclude",
+      "failed_rules": [
+        "animal study",
+        "out of scope: population does not match",
+        "out of scope: outcome does not match"
+      ],
+      "missing_details": [],
+      "evidence": [
+        {
+          "fact": "species: animal",
+          "quote": "To induce experimental T2D and DbCM, male C57BL/6J mice were fed a high-fat diet for 12.5 weeks",
+          "metadata_field": null
+        },
+        {
+          "fact": "design: randomised",
+          "quote": "The animals' drinking water was randomized to include either vehicle control or metformin (3.0 g/L) during the final 7.5 weeks.",
+          "metadata_field": null
+        },
+        {
+          "fact": "published 2025",
+          "quote": null,
+          "metadata_field": "publication_year"
+        },
+        {
+          "fact": "population does not match",
+          "quote": "To induce experimental T2D and DbCM, male C57BL/6J mice were fed a high-fat diet for 12.5 weeks",
+          "metadata_field": null
+        },
+        {
+          "fact": "intervention matches",
+          "quote": "The animals' drinking water was randomized to include either vehicle control or metformin (3.0 g/L) during the final 7.5 weeks.",
+          "metadata_field": null
+        },
+        {
+          "fact": "outcome does not match",
+          "quote": "we observed that metformin improved diastolic function in mice with T2D as reflected by an increase and a decrease in the e'/a' and E/e' ratios, respectively.",
+          "metadata_field": null
+        }
+      ],
+      "notes": [],
+      "metadata_only": false
+    },
+    {
+      "record_id": "41223492",
+      "source_type": "pubmed",
+      "decision": "exclude",
+      "failed_rules": [
+        "50 or fewer participants",
+        "out of scope: outcome does not match"
+      ],
+      "missing_details": [],
+      "evidence": [
+        {
+          "fact": "species: human",
+          "quote": null,
+          "metadata_field": "mesh_terms"
+        },
+        {
+          "fact": "design: randomised",
+          "quote": null,
+          "metadata_field": "publication_types"
+        },
+        {
+          "fact": "published 2026",
+          "quote": null,
+          "metadata_field": "publication_year"
+        },
+        {
+          "fact": "total sample size: 46",
+          "quote": "In this multicenter, open-label, randomized study, 46 drug-naïve adults with T2D (HbA1c 6.5 %-10.0 %) received empagliflozin (10 mg/day; n = 23) or metformin (1000 mg/day; n = 23) for 12 weeks.",
+          "metadata_field": null
+        },
+        {
+          "fact": "population matches",
+          "quote": "adults with T2D",
+          "metadata_field": null
+        },
+        {
+          "fact": "intervention matches",
+          "quote": "metformin",
+          "metadata_field": null
+        },
+        {
+          "fact": "outcome does not match",
+          "quote": "The primary outcome was change in mean amplitude of glucose excursions (MAGE), assessed by continuous glucose monitoring.",
+          "metadata_field": null
+        }
+      ],
+      "notes": [],
+      "metadata_only": false
+    },
+    {
+      "record_id": "39236318",
+      "source_type": "pubmed",
+      "decision": "exclude",
+      "failed_rules": [
+        "out of scope: outcome does not match"
+      ],
+      "missing_details": [],
+      "evidence": [
+        {
+          "fact": "species: human",
+          "quote": null,
+          "metadata_field": "mesh_terms"
+        },
+        {
+          "fact": "design: randomised",
+          "quote": null,
+          "metadata_field": "publication_types"
+        },
+        {
+          "fact": "published 2024",
+          "quote": null,
+          "metadata_field": "publication_year"
+        },
+        {
+          "fact": "total sample size: 831",
+          "quote": "Of 831 participants, 119 (14.3%) developed preeclampsia requiring delivery before 37 weeks of gestation: 57 of 416 (13.7%) in the placebo group and 62 of 415 (14.9%) in the metformin group.",
+          "metadata_field": null
+        },
+        {
+          "fact": "population matches",
+          "quote": "To estimate the association between maternal metformin use for the treatment of early gestational or pre-existing type 2 diabetes and preterm preeclampsia.",
+          "metadata_field": null
+        },
+        {
+          "fact": "intervention matches",
+          "quote": "a randomized trial comparing the effect of adding metformin with insulin treatment on composite neonatal outcome in singleton pregnancies with early gestational or type 2 diabetes.",
+          "metadata_field": null
+        },
+        {
+          "fact": "outcome does not match",
+          "quote": "Our primary outcome was preterm preeclampsia , defined as preeclampsia requiring delivery before 37 weeks of gestation.",
+          "metadata_field": null
+        }
+      ],
+      "notes": [],
+      "metadata_only": false
+    }
+  ],
+  "round": 1,
+  "drafts": [
+    {
+      "round": 1,
+      "pass_number": 1,
+      "summary": {
+        "study_details": [
+          {
+            "record_id": "36129997",
+            "details": [
+              {
+                "name": "population",
+                "value": "persons with type 2 diabetes",
+                "quote": "Data are lacking on the comparative effectiveness of commonly used glucose-lowering medications, when added to metformin, with respect to microvascular and cardiovascular disease outcomes in persons with type 2 diabetes."
+              },
+              {
+                "name": "intervention",
+                "value": "insulin glargine U-100, glimepiride, liraglutide, and sitagliptin",
+                "quote": "The randomly assigned therapies were insulin glargine U-100 (hereafter, glargine), glimepiride, liraglutide, and sitagliptin."
+              },
+              {
+                "name": "comparator",
+                "value": "other added treatments",
+                "quote": "When one treatment was compared with the combined results of the other three treatments, the hazard ratios for any cardiovascular disease were 1.1 (95% confidence interval [CI], 0.9 to 1.3) in the glargine group, 1.1 (95% CI, 0.9 to 1.4) in the glimepiride group, 0.7 (95% CI, 0.6 to 0.9) in the liraglutide group, and 1.2 (95% CI, 1.0 to 1.5) in the sitagliptin group."
+              },
+              {
+                "name": "participants",
+                "value": "5047 participants",
+                "quote": "During a mean 5.0 years of follow-up in 5047 participants, there were no material differences among the interventions with respect to the development of hypertension or dyslipidemia or with respect to microvascular outcomes; the mean overall rate (i.e., events per 100 participant-years) of moderately increased albuminuria levels was 2.6, of severely increased albuminuria levels 1.1, of renal impairment 2.9, and of diabetic peripheral neuropathy 16.7."
+              },
+              {
+                "name": "primary_outcome",
+                "value": "not reported",
+                "quote": null
+              },
+              {
+                "name": "follow_up",
+                "value": "mean 5.0 years",
+                "quote": "During a mean 5.0 years of follow-up in 5047 participants, there were no material differences among the interventions with respect to the development of hypertension or dyslipidemia or with respect to microvascular outcomes; the mean overall rate (i.e., events per 100 participant-years) of moderately increased albuminuria levels was 2.6, of severely increased albuminuria levels 1.1, of renal impairment 2.9, and of diabetic peripheral neuropathy 16.7."
+              },
+              {
+                "name": "intervention_events",
+                "value": "not reported",
+                "quote": null
+              },
+              {
+                "name": "comparator_events",
+                "value": "not reported",
+                "quote": null
+              },
+              {
+                "name": "effect_estimate",
+                "value": "1.1",
+                "quote": "When one treatment was compared with the combined results of the other three treatments, the hazard ratios for any cardiovascular disease were 1.1 (95% confidence interval [CI], 0.9 to 1.3) in the glargine group, 1.1 (95% CI, 0.9 to 1.4) in the glimepiride group, 0.7 (95% CI, 0.6 to 0.9) in the liraglutide group, and 1.2 (95% CI, 1.0 to 1.5) in the sitagliptin group."
+              }
+            ]
+          },
+          {
+            "record_id": "38772405",
+            "details": [
+              {
+                "name": "population",
+                "value": "newly diagnosed type 2 diabetes",
+                "quote": "The 20-year UK Prospective Diabetes Study showed major clinical benefits for people with newly diagnosed type 2 diabetes randomly allocated to intensive glycaemic control with sulfonylurea or insulin therapy or metformin therapy, compared with conventional glycaemic control."
+              },
+              {
+                "name": "intervention",
+                "value": "metformin therapy",
+                "quote": "Early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk reductions of 20% (95% CI 5-32; p=0.010) for death from any cause and 31% (12-46; p=0.003) for myocardial infarction."
+              },
+              {
+                "name": "comparator",
+                "value": "conventional glycaemic control",
+                "quote": "Early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk reductions of 20% (95% CI 5-32; p=0.010) for death from any cause and 31% (12-46; p=0.003) for myocardial infarction."
+              },
+              {
+                "name": "participants",
+                "value": "5102 patients",
+                "quote": "5102 patients enrolled between 1977 and 1991, of whom 4209 (82.5%) participants were originally randomly allocated to receive either intensive glycaemic control (sulfonylurea or insulin, or if overweight, metformin) or conventional glycaemic control (primarily diet)."
+              },
+              {
+                "name": "primary_outcome",
+                "value": "seven prespecified aggregate clinical outcomes",
+                "quote": "We examined seven prespecified aggregate clinical outcomes (ie, any diabetes-related endpoint, diabetes-related death, death from any cause, myocardial infarction, stroke, peripheral vascular disease, and microvascular disease) by the randomised glycaemic control strategy on an intention-to-treat basis using Kaplan-Meier time-to-event and log-rank analyses."
+              },
+              {
+                "name": "follow_up",
+                "value": "median 17.5 years",
+                "quote": "Individual follow-up from baseline ranged from 0 to 42 years, median 17.5 years (IQR 12.3-26.8)."
+              },
+              {
+                "name": "intervention_events",
+                "value": "not reported",
+                "quote": null
+              },
+              {
+                "name": "comparator_events",
+                "value": "not reported",
+                "quote": null
+              },
+              {
+                "name": "effect_estimate",
+                "value": "20%",
+                "quote": "Early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk reductions of 20% (95% CI 5-32; p=0.010) for death from any cause and 31% (12-46; p=0.003) for myocardial infarction."
+              }
+            ]
+          },
+          {
+            "record_id": "41311237",
+            "details": [
+              {
+                "name": "population",
+                "value": "Patients with T2D",
+                "quote": "A total of 2072 patients, mean age 61.2 years, 39% women, entered randomised treatment."
+              },
+              {
+                "name": "intervention",
+                "value": "dapagliflozin",
+                "quote": "Participants were randomised 1:1 to open-label dapagliflozin 10 mg/day or metformin at an individualised dose, and they are followed for 2-6 years, with blinding of researchers to endpoints per treatment arm."
+              },
+              {
+                "name": "comparator",
+                "value": "metformin",
+                "quote": "Participants were randomised 1:1 to open-label dapagliflozin 10 mg/day or metformin at an individualised dose, and they are followed for 2-6 years, with blinding of researchers to endpoints per treatment arm."
+              },
+              {
+                "name": "participants",
+                "value": "2072 patients",
+                "quote": "A total of 2072 patients, mean age 61.2 years, 39% women, entered randomised treatment."
+              },
+              {
+                "name": "primary_outcome",
+                "value": "composite primary endpoint",
+                "quote": "The composite primary endpoint is time to first event of: myocardial infarction, stroke, heart failure (MACE), appearance or progression of microvascular complications or all-cause death."
+              },
+              {
+                "name": "follow_up",
+                "value": "mean follow-up time of 19.0 months",
+                "quote": "In blinded interim analyses at a mean follow-up time of 19.0 months, the preliminary event rate of the primary composite endpoint was 11.7/100 patient-years (py) in the whole study population, mainly driven by microvascular complications."
+              },
+              {
+                "name": "intervention_events",
+                "value": "not reported",
+                "quote": null
+              },
+              {
+                "name": "comparator_events",
+                "value": "not reported",
+                "quote": null
+              },
+              {
+                "name": "effect_estimate",
+                "value": "11.7/100 patient-years",
+                "quote": "In blinded interim analyses at a mean follow-up time of 19.0 months, the preliminary event rate of the primary composite endpoint was 11.7/100 patient-years (py) in the whole study population, mainly driven by microvascular complications."
+              }
+            ]
+          }
+        ],
+        "claims": [
+          {
+            "claim_id": "c1",
+            "kind": "study",
+            "text": "During a mean 5.0 years of follow-up in 5047 participants, when treatments added to metformin were compared, the hazard ratios for any cardiovascular disease were 1.1 in the glargine group, 1.1 in the glimepiride group, 0.7 in the liraglutide group, and 1.2 in the sitagliptin group.",
+            "record_ids": [
+              "36129997"
+            ],
+            "quotes": [
+              {
+                "record_id": "36129997",
+                "quote": "During a mean 5.0 years of follow-up in 5047 participants, there were no material differences among the interventions with respect to the development of hypertension or dyslipidemia or with respect to microvascular outcomes; the mean overall rate (i.e., events per 100 participant-years) of moderately increased albuminuria levels was 2.6, of severely increased albuminuria levels 1.1, of renal impairment 2.9, and of diabetic peripheral neuropathy 16.7. The treatment groups did not differ with respect to MACE (overall rate, 1.0), hospitalization for heart failure (0.4), death from cardiovascular causes (0.3), or all deaths (0.6). There were small differences with respect to rates of any cardiovascular disease, with 1.9, 1.9, 1.4, and 2.0 in the glargine, glimepiride, liraglutide, and sitagliptin groups, respectively. When one treatment was compared with the combined results of the other three treatments, the hazard ratios for any cardiovascular disease were 1.1 (95% confidence interval [CI], 0.9 to 1.3) in the glargine group, 1.1 (95% CI, 0.9 to 1.4) in the glimepiride group, 0.7 (95% CI, 0.6 to 0.9) in the liraglutide group, and 1.2 (95% CI, 1.0 to 1.5) in the sitagliptin group."
+              }
+            ]
+          },
+          {
+            "claim_id": "c2",
+            "kind": "study",
+            "text": "Over a median 17.5 years of follow-up among 5102 patients, of whom 4209 participants were originally randomly allocated, early intensive glycaemic control with metformin therapy compared with conventional glycaemic control showed overall relative risk reductions of 20% for death from any cause and 31% for myocardial infarction.",
+            "record_ids": [
+              "38772405"
+            ],
+            "quotes": [
+              {
+                "record_id": "38772405",
+                "quote": "5102 patients enrolled between 1977 and 1991, of whom 4209 (82.5%) participants were originally randomly allocated to receive either intensive glycaemic control (sulfonylurea or insulin, or if overweight, metformin) or conventional glycaemic control (primarily diet)."
+              },
+              {
+                "record_id": "38772405",
+                "quote": "Individual follow-up from baseline ranged from 0 to 42 years, median 17.5 years (IQR 12.3-26.8). Overall follow-up increased by 21%, from 66 972 to 80 724 person-years. For up to 24 years after trial end, the glycaemic and metformin legacy effects showed no sign of waning. Early intensive glycaemic control with sulfonylurea or insulin therapy, compared with conventional glycaemic control, showed overall relative risk reductions of 10% (95% CI 2-17; p=0.015) for death from any cause, 17% (6-26; p=0.002) for myocardial infarction, and 26% (14-36; p<0.0001) for microvascular disease. Corresponding absolute risk reductions were 2.7%, 3.3%, and 3.5%, respectively. Early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk reductions of 20% (95% CI 5-32; p=0.010) for death from any cause and 31% (12-46; p=0.003) for myocardial infarction. Corresponding absolute risk reductions were 4.9% and 6.2%, respectively."
+              }
+            ]
+          },
+          {
+            "claim_id": "c3",
+            "kind": "study",
+            "text": "At a mean follow-up time of 19.0 months among 2072 patients randomized to dapagliflozin or metformin, the preliminary event rate of the primary composite endpoint was 11.7/100 patient-years.",
+            "record_ids": [
+              "41311237"
+            ],
+            "quotes": [
+              {
+                "record_id": "41311237",
+                "quote": "A total of 2072 patients, mean age 61.2 years, 39% women, entered randomised treatment. Signs of nephropathy, retinopathy and foot-at-risk were found in 6.1%, 13.2%, and 5.7%, respectively. Hypertension was present in 64.4%, and dyslipidaemia in 57.1%. In blinded interim analyses at a mean follow-up time of 19.0 months, the preliminary event rate of the primary composite endpoint was 11.7/100 patient-years (py) in the whole study population, mainly driven by microvascular complications. In contrast, rates of cardiovascular events and all-cause death were 0.6 and 0.3/100 py, respectively."
+              }
+            ]
+          }
+        ]
+      },
+      "removed_claims": [
+        {
+          "claim": {
+            "claim_id": "c4",
+            "kind": "comparison",
+            "text": "The studies measured different outcomes and follow-up periods, pointing in different directions. In 36129997, various add-on medications to metformin were compared over a mean 5.0 years. In 38772405, metformin showed fewer events for death and myocardial infarction compared with conventional control over a median 17.5 years. In 41311237, dapagliflozin was compared to metformin over a mean follow-up time of 19.0 months.",
+            "record_ids": [
+              "36129997",
+              "38772405",
+              "41311237"
+            ],
+            "quotes": [
+              {
+                "record_id": "36129997",
+                "quote": "During a mean 5.0 years of follow-up in 5047 participants, there were no material differences among the interventions with respect to the development of hypertension or dyslipidemia or with respect to microvascular outcomes"
+              },
+              {
+                "record_id": "38772405",
+                "quote": "Early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk reductions of 20% (95% CI 5-32; p=0.010) for death from any cause and 31% (12-46; p=0.003) for myocardial infarction."
+              },
+              {
+                "record_id": "41311237",
+                "quote": "Participants were randomised 1:1 to open-label dapagliflozin 10 mg/day or metformin at an individualised dose, and they are followed for 2-6 years, with blinding of researchers to endpoints per treatment arm."
+              }
+            ]
+          },
+          "reasons": [
+            "numbers not in its quotes: 17.5, 19.0"
+          ]
+        }
+      ],
+      "critic": {
+        "verdict": "approve",
+        "issues": []
+      },
+      "critic_available": true
+    }
+  ],
+  "change_requests": [],
+  "warnings": [
+    {
+      "kind": "removed_unsupported",
+      "message": "removed: unsupported claim \"The studies measured different outcomes and follow-up periods, pointing in different directions. In 36129997, various add-on medications to metformin were compared over a mean 5.0 years. In 38772405, metformin showed fewer events for death and myocardial infarction compared with conventional control over a median 17.5 years. In 41311237, dapagliflozin was compared to metformin over a mean follow-up time of 19.0 months.\" (numbers not in its quotes: 17.5, 19.0)"
+    },
+    {
+      "kind": "missing_comparison",
+      "message": "no cross-study comparison for the pubmed studies"
+    }
+  ],
+  "email": {
+    "recipient": "gadampranav@gmail.com",
+    "subject": "Literature screen: Which recent PubMed trials investigate metformin and cardiovascular outcomes... (2026-10-30) [run 20261030-041459-7c08]",
+    "body": "QUESTION\nWhich recent PubMed trials investigate metformin and cardiovascular outcomes in adults with type 2 diabetes?\n\nINTERPRETATION\nintervention: metformin ('metformin')\noutcome: cardiovascular ('cardiovascular outcomes')\npopulation: adults_t2d ('adults with type 2 diabetes')\nsources: pubmed\nrecent only: yes\n\nSUMMARY\nPUBMED (live search)\n- During a mean 5.0 years of follow-up in 5047 participants, when treatments added to metformin were compared, the hazard ratios for any cardiovascular disease were 1.1 in the glargine group, 1.1 in the glimepiride group, 0.7 in the liraglutide group, and 1.2 in the sitagliptin group. [PMID 36129997]\n- Over a median 17.5 years of follow-up among 5102 patients, of whom 4209 participants were originally randomly allocated, early intensive glycaemic control with metformin therapy compared with conventional glycaemic control showed overall relative risk reductions of 20% for death from any cause and 31% for myocardial infarction. [PMID 38772405]\n- At a mean follow-up time of 19.0 months among 2072 patients randomized to dapagliflozin or metformin, the preliminary event rate of the primary composite endpoint was 11.7/100 patient-years. [PMID 41311237]\n\nWARNINGS\n- removed: unsupported claim \"The studies measured different outcomes and follow-up periods, pointing in different directions. In 36129997, various add-on medications to metformin were compared over a mean 5.0 years. In 38772405, metformin showed fewer events for death and myocardial infarction compared with conventional control over a median 17.5 years. In 41311237, dapagliflozin was compared to metformin over a mean follow-up time of 19.0 months.\" (numbers not in its quotes: 17.5, 19.0)\n- no cross-study comparison for the pubmed studies\n\nEVIDENCE TABLE: PUBMED (live search)\nSearch date: 2026/10/30\nDate window: 2021/10/30 to 2026/10/30 (recent = published in the 5 years before the search date)\nQuery: (metformin[Title] OR metformin[MeSH Major Topic]) AND (\"diabetes mellitus, type 2\"[MeSH Terms] OR \"type 2 diabetes\"[Title/Abstract] OR \"type 2 diabetic\"[Title/Abstract] OR T2DM[Title/Abstract]) AND (\"cardiovascular diseases\"[MeSH Terms] OR cardiovascular[Title/Abstract] OR \"myocardial infarction\"[Title/Abstract] OR stroke[Title/Abstract] OR \"heart failure\"[Title/Abstract]) AND (\"randomized controlled trial\"[Publication Type] OR randomized[Title/Abstract] OR randomised[Title/Abstract]) NOT (Review[Publication Type] OR \"Systematic Review\"[Publication Type] OR \"Meta-Analysis\"[Publication Type] OR \"Clinical Trial Protocol\"[Publication Type])\nScreened 10 of 60 total matches (top results by relevance).\n\nIncluded (3)\n[PMID 36129997] Glycemia Reduction in Type 2 Diabetes - Microvascular and Cardiovascular Outcomes. (2022)\n  https://pubmed.ncbi.nlm.nih.gov/36129997/\n  population: persons with type 2 diabetes [\"Data are lacking on the comparative effectiveness of commonly used glucose-lowering medications, when added to metformin, with respect to...\"]\n  intervention: insulin glargine U-100, glimepiride, liraglutide, and sitagliptin [\"The randomly assigned therapies were insulin glargine U-100 (hereafter, glargine), glimepiride, liraglutide, and sitagliptin.\"]\n  comparator: other added treatments [\"When one treatment was compared with the combined results of the other three treatments, the hazard ratios for any cardiovascular disease...\"]\n  participants: 5047 participants [\"During a mean 5.0 years of follow-up in 5047 participants, there were no material differences among the interventions with respect to the...\"]\n  primary outcome: not reported\n  follow up: mean 5.0 years [\"During a mean 5.0 years of follow-up in 5047 participants, there were no material differences among the interventions with respect to the...\"]\n  intervention events: not reported\n  comparator events: not reported\n  effect estimate: 1.1 [\"When one treatment was compared with the combined results of the other three treatments, the hazard ratios for any cardiovascular disease...\"]\n[PMID 38772405] Post-trial monitoring of a randomised controlled trial of intensive glycaemic control in type 2 diabetes extended from 10 years to 24 years (UKPDS 91). (2024)\n  https://pubmed.ncbi.nlm.nih.gov/38772405/\n  population: newly diagnosed type 2 diabetes [\"The 20-year UK Prospective Diabetes Study showed major clinical benefits for people with newly diagnosed type 2 diabetes randomly allocat...\"]\n  intervention: metformin therapy [\"Early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk redu...\"]\n  comparator: conventional glycaemic control [\"Early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk redu...\"]\n  participants: 5102 patients [\"5102 patients enrolled between 1977 and 1991, of whom 4209 (82.5%) participants were originally randomly allocated to receive either inte...\"]\n  primary outcome: seven prespecified aggregate clinical outcomes [\"We examined seven prespecified aggregate clinical outcomes (ie, any diabetes-related endpoint, diabetes-related death, death from any cau...\"]\n  follow up: median 17.5 years [\"Individual follow-up from baseline ranged from 0 to 42 years, median 17.5 years (IQR 12.3-26.8).\"]\n  intervention events: not reported\n  comparator events: not reported\n  effect estimate: 20% [\"Early intensive glycaemic control with metformin therapy, compared with conventional glycaemic control, showed overall relative risk redu...\"]\n[PMID 41311237] SGLT2 inhibitor or metformin as standard treatment in early-stage type 2 diabetes? Baseline data in SMARTEST, a novel, decentralised, register-based randomised trial on prevention of diabetic complications. (2026)\n  https://pubmed.ncbi.nlm.nih.gov/41311237/\n  population: Patients with T2D [\"A total of 2072 patients, mean age 61.2 years, 39% women, entered randomised treatment.\"]\n  intervention: dapagliflozin [\"Participants were randomised 1:1 to open-label dapagliflozin 10 mg/day or metformin at an individualised dose, and they are followed for...\"]\n  comparator: metformin [\"Participants were randomised 1:1 to open-label dapagliflozin 10 mg/day or metformin at an individualised dose, and they are followed for...\"]\n  participants: 2072 patients [\"A total of 2072 patients, mean age 61.2 years, 39% women, entered randomised treatment.\"]\n  primary outcome: composite primary endpoint [\"The composite primary endpoint is time to first event of: myocardial infarction, stroke, heart failure (MACE), appearance or progression...\"]\n  follow up: mean follow-up time of 19.0 months [\"In blinded interim analyses at a mean follow-up time of 19.0 months, the preliminary event rate of the primary composite endpoint was 11....\"]\n  intervention events: not reported\n  comparator events: not reported\n  effect estimate: 11.7/100 patient-years [\"In blinded interim analyses at a mean follow-up time of 19.0 months, the preliminary event rate of the primary composite endpoint was 11....\"]\n\nNeeds review (0)\n\nExcluded (7)\n- [PMID 38763510] Efficacy and Safety of Metformin and Atorvastatin Combination Therapy vs. Monotherapy with Either Drug in Type 2 Diabetes Mellitus and Dyslipidemia Patients (ATOMIC): Double-Blinded Randomized Controlled Trial. (2024): out of scope: outcome does not match | \"The primary efficacy endpoints were the percent changes in HbA1c and LDL-C levels from baseline at the end...\" https://pubmed.ncbi.nlm.nih.gov/38763510/\n- [PMID 39521399] Stopping Versus Continuing Metformin in Patients With Advanced CKD: A Nationwide Scottish Target Trial Emulation Study. (2025): non-randomised study | design: non_randomised (metadata) https://pubmed.ncbi.nlm.nih.gov/39521399/\n- [PMID 38734755] Dapagliflozin added to metformin reduces perirenal fat layer in type 2 diabetic patients with obesity. (2024): 50 or fewer participants; out of scope: outcome does not match | \"we enrolled 29 patients with type 2 Diabetes\" https://pubmed.ncbi.nlm.nih.gov/38734755/\n- [PMID 41160096] Metformin Blunts Vascular Insulin Sensitivity After Exercise Training in Adults at Risk for Metabolic Syndrome. (2026): out of scope: population does not match | \"adults at risk for metabolic syndrome\" https://pubmed.ncbi.nlm.nih.gov/41160096/\n- [PMID 41362917] Metformin alleviates diastolic dysfunction in mice with experimental diabetic cardiomyopathy. (2025): animal study; out of scope: population does not match; out of scope: outcome does not match | \"To induce experimental T2D and DbCM, male C57BL/6J mice were fed a high-fat diet for 12.5 weeks\" https://pubmed.ncbi.nlm.nih.gov/41362917/\n- [PMID 41223492] Empagliflozin versus metformin for glucose variability and metabolic outcomes in drug-naïve type 2 diabetes: The EMPA-FIT study. (2026): 50 or fewer participants; out of scope: outcome does not match | \"In this multicenter, open-label, randomized study, 46 drug-naïve adults with T2D (HbA1c 6.5 %-10.0 %) recei...\" https://pubmed.ncbi.nlm.nih.gov/41223492/\n- [PMID 39236318] Association Between Metformin Use in Early Gestational or Type 2 Diabetes in Pregnancy and Preterm Preeclampsia. (2024): out of scope: outcome does not match | \"Our primary outcome was preterm preeclampsia , defined as preeclampsia requiring delivery before 37 weeks o...\" https://pubmed.ncbi.nlm.nih.gov/39236318/\n\n--\nRun ID: 20261030-041459-7c08\nSynthetic records are fictional test fixtures, not medical evidence. This prototype does not provide medical advice."
+  },
+  "approval": {
+    "decision": "rejected",
+    "fingerprint": "40ac04db18dc5ac748616be4cae4a6164e84331304e0f91700ff8c16cff74e92",
+    "round": 1,
+    "at": "2026-10-30T03:16:05.063539Z"
+  },
+  "delivery": {
+    "status": "not_sent",
+    "fingerprint": null,
+    "gmail_message_id": null,
+    "error": null,
+    "updated_at": null
+  },
+  "errors": [],
+  "llm_calls": 14
+}

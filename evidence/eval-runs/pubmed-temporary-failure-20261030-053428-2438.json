@@ -1,0 +1,195 @@
+{
+  "run_id": "20261030-053428-2438",
+  "question": "Which recent PubMed trials investigate metformin and cardiovascular outcomes in adults with type 2 diabetes?",
+  "created_at": "2026-10-30T04:34:28.273740Z",
+  "search_date": "2026-10-30",
+  "scenario": "eval:pubmed-temporary-failure",
+  "mock": true,
+  "stage": "done",
+  "stop_reason": null,
+  "intake": {
+    "intervention": "metformin",
+    "outcome": "cardiovascular",
+    "population": "adults_t2d",
+    "sources": "pubmed",
+    "recency": true,
+    "intervention_wording": "metformin",
+    "outcome_wording": "cardiovascular outcomes",
+    "population_wording": "adults with type 2 diabetes"
+  },
+  "intake_scope_filled": [],
+  "intake_correction": null,
+  "clarification": null,
+  "synthetic_search": null,
+  "pubmed_search": {
+    "query": "(metformin[Title] OR metformin[MeSH Major Topic]) AND (\"diabetes mellitus, type 2\"[MeSH Terms] OR \"type 2 diabetes\"[Title/Abstract] OR \"type 2 diabetic\"[Title/Abstract] OR T2DM[Title/Abstract]) AND (\"cardiovascular diseases\"[MeSH Terms] OR cardiovascular[Title/Abstract] OR \"myocardial infarction\"[Title/Abstract] OR stroke[Title/Abstract] OR \"heart failure\"[Title/Abstract]) AND (\"randomized controlled trial\"[Publication Type] OR randomized[Title/Abstract] OR randomised[Title/Abstract]) NOT (Review[Publication Type] OR \"Systematic Review\"[Publication Type] OR \"Meta-Analysis\"[Publication Type] OR \"Clinical Trial Protocol\"[Publication Type])",
+    "min_date": "2021/10/30",
+    "max_date": "2026/10/30",
+    "total_matches": 42,
+    "retrieved_pmids": [
+      "111",
+      "222"
+    ],
+    "status": "ok"
+  },
+  "records": [
+    {
+      "record_id": "111",
+      "source_type": "pubmed",
+      "title": "Metformin and cardiovascular events: a randomized trial",
+      "abstract": "METHODS: We randomized 400 adults with type 2 diabetes to metformin or placebo.\nRESULTS: Events occurred in 20 and 30 participants (HR 0.66, 95% CI 0.38-1.15).",
+      "publication_year": 2021,
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Metformin"
+      ],
+      "pmid": "111",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/111/",
+      "retrieval_score": null
+    },
+    {
+      "record_id": "222",
+      "source_type": "pubmed",
+      "title": "A trial without an abstract",
+      "abstract": null,
+      "publication_year": 2016,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "mesh_terms": [],
+      "pmid": "222",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/222/",
+      "retrieval_score": null
+    }
+  ],
+  "extractions": [
+    {
+      "record_id": "111",
+      "facts": {
+        "total_sample_size": null,
+        "group_sizes": [],
+        "species": {
+          "value": "unclear",
+          "quote": null
+        },
+        "design": {
+          "value": "unclear",
+          "quote": null
+        },
+        "population_match": {
+          "value": "unclear",
+          "quote": null
+        },
+        "intervention_match": {
+          "value": "unclear",
+          "quote": null
+        },
+        "outcome_match": {
+          "value": "unclear",
+          "quote": null
+        }
+      },
+      "check_failures": []
+    },
+    {
+      "record_id": "222",
+      "facts": null,
+      "check_failures": [
+        "no abstract"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "record_id": "111",
+      "source_type": "pubmed",
+      "decision": "needs_review",
+      "failed_rules": [],
+      "missing_details": [
+        "total sample size",
+        "population match",
+        "intervention match",
+        "outcome match"
+      ],
+      "evidence": [
+        {
+          "fact": "species: human",
+          "quote": null,
+          "metadata_field": "mesh_terms"
+        },
+        {
+          "fact": "design: randomised",
+          "quote": null,
+          "metadata_field": "publication_types"
+        },
+        {
+          "fact": "published 2021",
+          "quote": null,
+          "metadata_field": "publication_year"
+        }
+      ],
+      "notes": [],
+      "metadata_only": false
+    },
+    {
+      "record_id": "222",
+      "source_type": "pubmed",
+      "decision": "needs_review",
+      "failed_rules": [],
+      "missing_details": [
+        "abstract",
+        "human participants",
+        "randomisation",
+        "total sample size",
+        "population match",
+        "intervention match",
+        "outcome match"
+      ],
+      "evidence": [
+        {
+          "fact": "published 2016",
+          "quote": null,
+          "metadata_field": "publication_year"
+        }
+      ],
+      "notes": [],
+      "metadata_only": false
+    }
+  ],
+  "round": 1,
+  "drafts": [],
+  "change_requests": [],
+  "warnings": [],
+  "email": {
+    "recipient": "gadampranav@gmail.com",
+    "subject": "Literature screen: Which recent PubMed trials investigate metformin and cardiovascular outcomes... (2026-10-30) [run 20261030-053428-2438]",
+    "body": "QUESTION\nWhich recent PubMed trials investigate metformin and cardiovascular outcomes in adults with type 2 diabetes?\n\nINTERPRETATION\nintervention: metformin ('metformin')\noutcome: cardiovascular ('cardiovascular outcomes')\npopulation: adults_t2d ('adults with type 2 diabetes')\nsources: pubmed\nrecent only: yes\n\nSUMMARY\nPUBMED (live search)\nNo studies in this source met the screening rules; see the evidence table for reasons.\n\nEVIDENCE TABLE: PUBMED (live search)\nSearch date: 2026/10/30\nDate window: 2021/10/30 to 2026/10/30 (recent = published in the 5 years before the search date)\nScreened 2 of 42 total matches (top results by relevance).\n\nIncluded (0)\n\nNeeds review (2)\n- [PMID 111] Metformin and cardiovascular events: a randomized trial (2021): missing or unclear: total sample size; population match; intervention match; outcome match https://pubmed.ncbi.nlm.nih.gov/111/\n- [PMID 222] A trial without an abstract (2016): missing or unclear: abstract; human participants; randomisation; total sample size; population match; intervention match; outcome match https://pubmed.ncbi.nlm.nih.gov/222/\n\nExcluded (0)\n\n--\nRun ID: 20261030-053428-2438\nSynthetic records are fictional test fixtures, not medical evidence. This prototype does not provide medical advice."
+  },
+  "approval": {
+    "decision": "rejected",
+    "fingerprint": "7c85c18b193ad53fbaa37eb92fb12da0323b941752dccaa04f4c04725b9e65d0",
+    "round": 1,
+    "at": "2026-10-30T04:34:28.353775Z"
+  },
+  "delivery": {
+    "status": "not_sent",
+    "fingerprint": null,
+    "gmail_message_id": null,
+    "error": null,
+    "updated_at": null
+  },
+  "errors": [
+    {
+      "stage": "retrieval.pubmed.esearch",
+      "error_class": "transient",
+      "message": "HTTP 503: server error",
+      "attempt": 1,
+      "at": "2026-10-30T04:34:28.311185Z"
+    }
+  ],
+  "llm_calls": 2
+}

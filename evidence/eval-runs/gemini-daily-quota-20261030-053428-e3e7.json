@@ -1,0 +1,42 @@
+{
+  "run_id": "20261030-053428-e3e7",
+  "question": "Which synthetic studies qualify under the screening rules?",
+  "created_at": "2026-10-30T04:34:28.846346Z",
+  "search_date": "2026-10-30",
+  "scenario": "eval:gemini-daily-quota",
+  "mock": true,
+  "stage": "stopped",
+  "stop_reason": "quota_exhausted: fake: HTTP 429: daily quota exhausted",
+  "intake": null,
+  "intake_scope_filled": [],
+  "intake_correction": null,
+  "clarification": null,
+  "synthetic_search": null,
+  "pubmed_search": null,
+  "records": [],
+  "extractions": [],
+  "decisions": [],
+  "round": 1,
+  "drafts": [],
+  "change_requests": [],
+  "warnings": [],
+  "email": null,
+  "approval": null,
+  "delivery": {
+    "status": "not_sent",
+    "fingerprint": null,
+    "gmail_message_id": null,
+    "error": null,
+    "updated_at": null
+  },
+  "errors": [
+    {
+      "stage": "llm.intake",
+      "error_class": "quota_exhausted",
+      "message": "fake: HTTP 429: daily quota exhausted",
+      "attempt": 1,
+      "at": "2026-10-30T04:34:28.855407Z"
+    }
+  ],
+  "llm_calls": 1
+}

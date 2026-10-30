@@ -1,0 +1,80 @@
+{
+  "_about": "Expected eligibility for the 8 synthetic records (brief Q2). Decisions and first failed rule or missing detail come from the brief; facts are what a correct extraction returns. SYN004 is excluded on metadata before any LLM call, so it has no expected facts.",
+  "question": "Which synthetic studies qualify under the screening rules?",
+  "decisions": {
+    "SYN001": "include",
+    "SYN002": "include",
+    "SYN008": "include",
+    "SYN003": "needs_review",
+    "SYN004": "exclude",
+    "SYN005": "exclude",
+    "SYN006": "exclude",
+    "SYN007": "exclude"
+  },
+  "reasons": {
+    "SYN003": "total sample size",
+    "SYN004": "published before 2015",
+    "SYN005": "animal study",
+    "SYN006": "50 or fewer participants",
+    "SYN007": "non-randomised study"
+  },
+  "facts": {
+    "SYN001": {
+      "total_sample_size": 240,
+      "species": "human",
+      "design": "randomised",
+      "population_match": "yes",
+      "intervention_match": "yes",
+      "outcome_match": "yes"
+    },
+    "SYN002": {
+      "total_sample_size": 320,
+      "species": "human",
+      "design": "randomised",
+      "population_match": "yes",
+      "intervention_match": "yes",
+      "outcome_match": "yes"
+    },
+    "SYN003": {
+      "total_sample_size": null,
+      "species": "human",
+      "design": "randomised",
+      "population_match": "yes",
+      "intervention_match": "yes",
+      "outcome_match": "yes"
+    },
+    "SYN004": null,
+    "SYN005": {
+      "total_sample_size": 80,
+      "species": "animal",
+      "design": "randomised",
+      "population_match": "no",
+      "intervention_match": "yes",
+      "outcome_match": "no"
+    },
+    "SYN006": {
+      "total_sample_size": 50,
+      "species": "human",
+      "design": "randomised",
+      "population_match": "yes",
+      "intervention_match": "yes",
+      "outcome_match": "yes"
+    },
+    "SYN007": {
+      "total_sample_size": 600,
+      "species": "human",
+      "design": "non_randomised",
+      "population_match": "yes",
+      "intervention_match": "yes",
+      "outcome_match": "yes"
+    },
+    "SYN008": {
+      "total_sample_size": 160,
+      "species": "human",
+      "design": "randomised",
+      "population_match": "yes",
+      "intervention_match": "yes",
+      "outcome_match": "yes"
+    }
+  }
+}
