@@ -80,7 +80,7 @@ def assess_record(record: Record, form: IntakeForm, *, llm: LLM, settings: Setti
                  missing_details=decision.missing_details, check_failures=extraction.check_failures)
     return {"extraction": extraction, "decision": decision}
 
-
+# concurrently handles records
 def screen_records(
     records: list[Record],
     form: IntakeForm,
